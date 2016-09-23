@@ -1,6 +1,673 @@
+commit a0fd6b74edded14304ec73b731188436009b675e
+Author: Anders Jonsson <anders.jonsson@norsjovallen.se>
+Date:   2016-09-17
+
+    Add Swedish help translation
+
+M	help/Makefile.am
+A	help/sv/sv.po
+
+commit 5ff738df4642798b5f452b4376bc158e1203d9ff
+Author: Daniel Korostil <ted.korostiled@gmail.com>
+Date:	2016-09-17
+
+    Updated Ukrainian translation
+
+M	po/uk.po
+
+commit ae9574142beebb417026624f89686b7eeff81cd6
+Author: Stas Solovey <whats_up@tut.by>
+Date:	2016-09-16
+
+    Updated Russian translation
+
+M	po/ru.po
+
+commit 59268a113033efa18efd2379d0b1ce808ce92ff6
+Author: Hannie Dumoleyn <hannie@ubuntu-nl.org>
+Date:	2016-09-15
+
+    Updated Dutch translation Master 3.22
+
+M	po/nl.po
+
+commit 58a03577322c83962d6a81e4704c4fcfc598e973
+Author: Arash Mousavi <mousavi.arash@gmail.com>
+Date:	2016-09-13
+
+    [l10n] update Persian translations
+
+M	po/fa.po
+
+commit cc2ccbd7e9c3d85d93f0c6d12b99b6b0eb01db19
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-09-12
+
+    Release 3.21.92
+
+M	NEWS
+M	configure.ac
+
+commit 28c8bfd90a4b68fd86cfdf850788205da7cdb6a3
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2016-09-12
+
+    Add more options to XGETTEXT_OPTIONS in po/Makevars
+
+M	po/Makevars
+
+commit 3f1d63715fe1abfcf0c9ba5e7fc974ae99e4797c
+Author: Tom Tryfonidis <tomtryf@gnome.org>
+Date:	2016-09-12
+
+    Updated Greek translation
+
+M	po/el.po
+
+commit 8d87df25fb035e3d9e990de39843d75f5f562f46
+Author: Ask Hjorth Larsen <asklarsen@gmail.com>
+Date:	2016-09-12
+
+    Updated Danish translation
+
+M	po/da.po
+
+commit 5ade762fb0a8a20bb756fa5a5c623e878ab113bd
+Author: Fran Dieguez <fran.dieguez@mabishu.com>
+Date:	2016-09-11
+
+    Updated Galician translations
+
+M	po/gl.po
+
+commit 2e161b68834e6612d29247306652cba275309b41
+Author: Seong-ho Cho <shcho@gnome.org>
+Date:	2016-09-09
+
+    Updated Korean translation
+
+M	po/ko.po
+
+commit 64d0e18072f7b1441e86da07701b7d240d640432
+Author: Fran Dieguez <fran.dieguez@mabishu.com>
+Date:	2016-09-08
+
+    Updated Galician translations
+
+M	po/gl.po
+
+commit 31d4150f9b77dadd43db57235337e452713f9a2e
+Author: Trần Ngọc Quân <vnwildman@gmail.com>
+Date:	2016-09-08
+
+    Updated Vietnamese translation
+
+    Signed-off-by: Trần Ngọc Quân <vnwildman@gmail.com>
+
+M	po/vi.po
+
+commit ae9d3d7beab6074cd535ecd9f18d1c770dd5ce9c
+Author: Anders Jonsson <anders.jonsson@norsjovallen.se>
+Date:	2016-09-06
+
+    Updated Swedish translation
+
+M	po/sv.po
+
+commit dfddfcd9a951ea57982131fdc06562c8cdef19aa
+Author: Aurimas Černius <aurisc4@gmail.com>
+Date:	2016-09-05
+
+    Updated Lithuanian translation
+
+M	po/lt.po
+
+commit 8236ee45dfaa4e0884c60e8afdd3258627a135c3
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:	2016-09-03
+
+    Updated Kazakh translation
+
+M	po/kk.po
+
+commit f00af75dc2a7b02ee54f4807e8db5ac048f8fcdb
+Author: David King <amigadave@amigadave.com>
+Date:	2016-09-03
+
+    Update British English translation
+
+M	po/en_GB.po
+
+commit 9d580dc55df75fde997645c48846d6c2491c8cc9
+Author: David King <amigadave@amigadave.com>
+Date:	2016-09-03
+
+    Fix Hungarian help translation
+
+M	help/hu/hu.po
+
+commit a30d734700ef584b9a8fbf806443d48102b93c70
+Author: Tiago Santos <tiagofsantos81@sapo.pt>
+Date:	2016-09-02
+
+    Updated Portuguese translation
+
+M	help/pt/pt.po
+
+commit bfe0af51b4b255f79d7e0d26ea1838d3f8f54b78
+Author: Emmanuele Bassi <ebassi@gnome.org>
+Date:	2016-09-01
+
+    Disable Portuguese translation
+
+    Breaks the build:
+
+    Error: Could not merge translations:
+    'NoneType' object has no attribute 'node'
+    Makefile:518: recipe for target 'pt/pt.stamp' failed
+    make[2]: *** [pt/pt.stamp] Error 1
+
+M	help/Makefile.am
+
+commit 9e629e432a626a0069f2a5ede96ac4db75f097b7
+Author: Tiago Santos <tiagofsantos81@sapo.pt>
+Date:	2016-09-01
+
+    Updated Portuguese translation
+
+M	help/pt/pt.po
+
+commit 3620d81c495fe1c5b61cc25380df288e77322aea
+Author: Tiago Santos <tiagofsantos81@sapo.pt>
+Date:	2016-08-31
+
+    Added Portuguese translation
+
+M	help/Makefile.am
+A	help/pt/pt.po
+
+commit 5ceaa8347e8f016134eb6b1860eb7cce52a0387d
+Author: Rūdolfs Mazurs <rudolfsm@src.gnome.org>
+Date:	2016-08-28
+
+    Update Latvian translation
+
+M	po/lv.po
+
+commit 55fbb5baa288e81b9a319f5bc3d6215adbd81aa8
+Author: Rūdolfs Mazurs <rudolfsm@src.gnome.org>
+Date:	2016-08-28
+
+    Update Latvian translation
+
+M	po/lv.po
+
+commit be35647625bb82904f9184a2c861d7eb368546ee
+Author: Мирослав Николић <miroslavnikolic@rocketmail.com>
+Date:	2016-08-27
+
+    Updated Serbian translation
+
+M	po/sr.po
+M	po/sr@latin.po
+
+commit 978bb4f5b726d70021d477134df0fd39709df7cf
+Author: Мирослав Николић <miroslavnikolic@rocketmail.com>
+Date:	2016-08-27
+
+    Updated Serbian translation
+
+M	po/sr@latin.po
+
+commit b107f9402321aede5595abcff11fbd5d0346038f
+Author: Fabio Tomat <f.t.public@gmail.com>
+Date:	2016-08-22
+
+    Updated Friulian translation
+
+M	po/fur.po
+
+commit a1d346c12eff6865a7ad85ebf4a572f65340b0e9
+Author: Claude Paroz <claude@2xlibre.net>
+Date:	2016-08-22
+
+    Updated French translation
+
+M	po/fr.po
+
+commit 9f1c029135c33f726d031b77d5c2c3d196a279f9
+Author: Gustavo Marques <gutodisse@gmail.com>
+Date:	2016-08-22
+
+    Updated Brazilian Portuguese translation
+
+M	po/pt_BR.po
+
+commit d0a224dc99c106859ee9486ba28b7e1a8c4cf3ff
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:	2016-08-21
+
+    Updated Finnish translation
+
+M	po/fi.po
+
+commit 3b70d4b6be87c919631cee4f728998720f60b6f4
+Author: Balázs Úr <urbalazs@gmail.com>
+Date:	2016-08-19
+
+    Updated Hungarian translation
+
+M	po/hu.po
+
+commit 0380792248d23aabb5d0195848180559cd9d3789
+Author: Mario Blättermann <mario.blaettermann@gmail.com>
+Date:	2016-08-19
+
+    Updated German translation
+
+M	po/de.po
+
+commit eaaf0b3f9ffe4aa0fd5a14c89da50c71eec33aff
+Author: Andika Triwidada <atriwidada@gnome.org>
+Date:	2016-08-18
+
+    Updated Indonesian translation
+
+M	po/id.po
+
+commit 2d0f29212e7a9222e6664c52dd40e7fbf5fd040d
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:	2016-08-17
+
+    Updated Slovak translation
+
+M	po/sk.po
+
+commit 60efb2534c147aa2b070052f117f112446808fe5
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2016-08-16
+
+    Updated Polish translation
+
+M	po/pl.po
+
+commit deae2db49a748056ad3690336c8f52ea6a9b972b
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-08-15
+
+    Release 3.21.90
+
+M	NEWS
+M	configure.ac
+
+commit 808e4134f6ac90250c05d87106793b68f6d3bf5f
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:	2016-08-16
+
+    Updated Spanish translation
+
+M	po/es.po
+
+commit 313d9336ded26b335f3788a47d507efd0c34d06b
+Author: Tiago Santos <tiagofsantos81@sapo.pt>
+Date:	2016-08-14
+
+    Updated Portuguese translation
+
+M	po/pt.po
+
+commit 6d8644774324c5ee4ac690ac7e0cd6a70f888d03
+Author: Yosef Or Boczko <yoseforb@src.gnome.org>
+Date:	2016-08-14
+
+    Updated Hebrew translation
+
+M	po/he.po
+
+commit 003ce4639df2d016c561affb06092578330f8804
+Author: Marek Černocký <marek@manet.cz>
+Date:	2016-08-13
+
+    Updated Czech translation
+
+M	po/cs.po
+
+commit 0ad7e6d9f52917f627962132c293d02e32a29d5f
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2016-08-13
+
+    Updated POTFILES.in and POTFILES.skip
+
+M	po/POTFILES.in
+M	po/POTFILES.skip
+
+commit c95d5fa163eaf9fa7e251efd96a8d6ce36cd48d1
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:	2016-08-12
+
+    Updated Slovak translation
+
+M	po/sk.po
+
+commit e3f8425d266149c42e45c952ee9b2d52a075cf1d
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-08-12
+
+    Update AppData
+
+    As suggested by "appstream-util upgrade".
+
+M	data/org.gnome.baobab.appdata.xml.in
+
+commit 32372086020392308e867c1cb461472ac0c05816
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-08-11
+
+    window: tree and chart in result page should have the same width
+
+M	src/baobab-main-window.ui
+
+commit a704ae91f7bc374f2732349deb8c042b8617edc6
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-08-11
+
+    Fix Vala warnings
+
+M	src/baobab-location.vala
+M	src/baobab-scanner.vala
+
+commit bff88543067901cc08bc7f38b6d8446d3f5b6773
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-08-11
+
+    Remove hacky workaround
+
+    This should be fixed lower in the stack.
+
+M	src/baobab-location.vala
+
+commit 366cc60675c378318a4c27357e85571241323768
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-08-10
+
+    Rework contributed code
+
+    Just one class for the location list widget.
+
+M	po/POTFILES.in
+M	src/baobab-location-list.ui
+M	src/baobab-location-list.vala
+M	src/baobab-location-row.ui
+M	src/baobab-main-window.ui
+M	src/baobab-window.vala
+
+commit dc5ecdc985c56f6b3cf419790ad4f7a394d6d5a5
+Author: George Barrett <bob@bob131.so>
+Date:	2016-07-29
+
+    Rejig 'devices and locations' UI
+
+    This patch addresses some of the UX issues outlined by Allan Day
+    in the
+    associated bug report[1] and updates the landing page UI according to
+    the provided wireframe.
+
+    The UX issues targeted by this patch are as follows:
+    * Home is almost always going to be the location the user is
+    interested
+      in - why isn't it at the top?
+    * Isn't clear which locations are local devices and which are remote.
+    * "Devices and locations" should use title case: "Devices &
+    Locations".
+    * The size bars are all different lengths. This looks messy, and it's
+      not clear whether the length is significant.
+    * The list doesn't look very good when it is very wide - everything is
+      spread out to the edges.
+
+    [1]: https://bugzilla.gnome.org/show_bug.cgi?id=762874
+
+A	src/baobab-location-list.ui
+M	src/baobab-location-list.vala
+M	src/baobab-location-row.ui
+M	src/baobab-location.vala
+M	src/baobab-main-window.ui
+M	src/baobab-window.vala
+M	src/baobab.gresource.xml
+
+commit 41ff17effcd5c0008237fffd198c28889577631f
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:	2016-08-12
+
+    Updated Finnish translation
+
+M	po/fi.po
+
+commit 7ded338463096232086165980dd50a9b3a603ddf
+Author: Marek Cernocky <marek_cernocky@conel.cz>
+Date:	2016-08-11
+
+    Updated Czech translation
+
+M	po/cs.po
+
+commit c093e229ac4d8bf9c5ab43f28213d6b8de42cd7d
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:	2016-08-10
+
+    Updated Slovak translation
+
+M	po/sk.po
+
+commit 8c16c964b76c7452dc627e062bdd1eddf2c5516a
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-08-10
+
+    Improve AppData file
+
+M	data/org.gnome.baobab.appdata.xml.in
+
+commit eb0dc2ecfe61b31f0f0aeef9e9f12d574dcf8a83
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-08-09
+
+    Makefile cleanup
+
+    The new git.mk takes care of these files now.
+
+M	Makefile.am
+
+commit 6b78e0b8713ff30a137b3b883c24335a1541bf99
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:	2016-08-09
+
+    Updated Slovak translation
+
+M	po/sk.po
+
+commit 771ba76e82ec4602eb1c2e10eb076b27c482379a
+Author: Yosef Or Boczko <yoseforb@src.gnome.org>
+Date:	2016-08-09
+
+    Updated Hebrew translation
+
+M	po/he.po
+
+commit 07e029ae33e64be6749123e6618cd78eaa32f198
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:	2016-08-09
+
+    Updated Spanish translation
+
+M	po/es.po
+
+commit fe2401f01cbc1c8e98b66ce5ecab984a68e2e873
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-08-09
+
+    Fix extraction of appdata translations
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=769646
+
+M	configure.ac
+M	data/Makefile.am
+M	data/org.gnome.baobab.appdata.xml.in
+
+commit 8e2da077a40f9b1f04ac161a19ca3f58781b4990
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2016-08-08
+
+    Add translator comments to .desktop
+
+M	data/org.gnome.baobab.desktop.in.in
+
+commit ade56d07e0627aebf38dbd1a2efe399025c22aac
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-08-08
+
+    Stop using intltool
+
+M	autogen.sh
+M	configure.ac
+M	data/Makefile.am
+M	data/org.gnome.baobab.appdata.xml.in
+M	data/org.gnome.baobab.desktop.in.in
+R064	data/org.gnome.baobab.gschema.xml.in.in
+data/org.gnome.baobab.gschema.xml.in
+M	git.mk
+A	po/Makevars
+M	po/POTFILES.in
+M	po/POTFILES.skip
+
+commit 99cd058576e2b51a2a93df38e63086d942b842b1
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2016-07-14
+
+    Add Language headers to po files
+
+    Future versions of gettext will fail if this header is missing.
+
+M	po/be@latin.po
+M	po/bn_IN.po
+M	po/br.po
+M	po/bs.po
+M	po/ca@valencia.po
+M	po/crh.po
+M	po/cy.po
+M	po/dz.po
+M	po/en@shaw.po
+M	po/en_CA.po
+M	po/es.po
+M	po/fr.po
+M	po/gu.po
+M	po/mai.po
+M	po/ms.po
+M	po/nb.po
+M	po/nds.po
+M	po/sl.po
+M	po/sr@latin.po
+M	po/ta.po
+M	po/ug.po
+M	po/wa.po
+M	po/zh_HK.po
+
+commit ce08b41f5481e1428a73e1cdb681401761495525
+Author: Andika Triwidada <atriwidada@gnome.org>
+Date:	2016-06-19
+
+    Updated Indonesian translation
+    (cherry picked from commit 20e8e968428b20a7b2509e20149b0af8d7a79287)
+
+M	help/id/id.po
+
+commit 655c24840e2cd52344d42fadcd6945adf13b3cd3
+Author: Cédric Valmary <cvalmary@yahoo.fr>
+Date:	2016-05-30
+
+    Updated Occitan translation
+
+M	po/oc.po
+
+commit 8651e266c644e091ef67e21101215abb6154ba1a
+Author: Felipe Braga <fbobraga@gmail.com>
+Date:	2016-05-18
+
+    Updated Brazilian Portuguese translation
+    (cherry picked from commit b17ea3c8fceda76c5ca51bb2528413390096648a)
+
+M	help/pt_BR/pt_BR.po
+
+commit 166735f1f8c2bb92df748ef117b882759ec718c8
+Author: Cédric Valmary <cvalmary@yahoo.fr>
+Date:	2016-05-06
+
+    Updated Occitan translation
+
+M	po/oc.po
+
+commit 15dc1471ab37034ac1916abd6c3d44b51c3fe87a
+Author: Tiago Santos <tiagofsantos81@sapo.pt>
+Date:	2016-04-28
+
+    Updated Portuguese translation
+
+M	po/pt.po
+
+commit 912253a50e100afa0325ceb53c45d985ee7e5df9
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-04-13
+
+    Scanner: avoid division by zero
+
+    The gdouble -nan value cannot be converted to gint when it is
+    used in the progress indicator.
+
+M	src/baobab-scanner.vala
+
+commit bdee915bf4e69200d1e2c2f764d6352256ab05ea
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-04-11
+
+    Window: remove superfluous gettext calls
+
+M	src/baobab-window.vala
+
+commit 30ab0955678cead1038b6ef9fa69f55bd8276262
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-04-11
+
+    Avoid GTK+ deprecations
+
+M	src/baobab-window.vala
+
+commit 2f1f6a6abc55be1d054ab41264f4a099681e493f
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-04-11
+
+    Avoid Vala deprecations
+
+M	src/baobab-application.vala
+M	src/baobab-scanner.vala
+
+commit 5e88ed0692ed5a2aa027f063e7ae8563e07cf8dd
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-04-11
+
+    LocationList: remove old workaround
+
+M	src/baobab-location-list.vala
+
+commit 56b7b73e6a9db7086b8f721228d1599c2b7df377
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-04-11
+
+    Release 3.20.1
+
+M	NEWS
+M	configure.ac
+
 commit f80475a091bed19360c6e8bf2845cc3df2d3db54
 Author: Fabio Tomat <f.t.public@gmail.com>
-Date:   2016-04-09
+Date:	2016-04-09
 
     Updated Friulian translation
 

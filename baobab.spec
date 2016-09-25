@@ -4,9 +4,9 @@
 #
 Name     : baobab
 Version  : 3.22.0
-Release  : 2
-URL      : https://download.gnome.org/core/3.22/3.22.0/sources/baobab-3.22.0.tar.xz
-Source0  : https://download.gnome.org/core/3.22/3.22.0/sources/baobab-3.22.0.tar.xz
+Release  : 3
+URL      : http://ftp.gnome.org/pub/gnome/sources/baobab/3.22/baobab-3.22.0.tar.xz
+Source0  : http://ftp.gnome.org/pub/gnome/sources/baobab/3.22/baobab-3.22.0.tar.xz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GFDL-1.1 GPL-2.0

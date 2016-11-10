@@ -1,6 +1,99 @@
+commit b1b0443002bb66971191e9244415a02910c78e72
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:   2016-11-07
+
+    Release 3.22.1
+
+M	NEWS
+M	configure.ac
+
+commit c3ed05a021da94f14d5ddb9f71b1514aaa493d76
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-11-05
+
+    Fix Portuguese translation
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=773981
+
+M	po/pt.po
+
+commit d8ed2df09f0af8e0824d3ef52507a6057ce252b8
+Author: Dz Chen <wsxy162@gmail.com>
+Date:	2016-10-30
+
+    Update zh_CN translation
+
+M	po/zh_CN.po
+
+commit e306bf4dc96b4d3704936776c3d39b826dffed9f
+Author: Kjartan Maraas <kmaraas@gnome.org>
+Date:	2016-10-16
+
+    Updated Norwegian bokmål translation from Kjartan Maraas.
+
+M	po/nb.po
+
+commit 7ddc0cb7f4ceed9951f21a22893b795d1f1d1eb0
+Author: Cédric Valmary <cvalmary@yahoo.fr>
+Date:	2016-10-13
+
+    Update Occitan translation
+
+M	po/oc.po
+
+commit 189c39546da08b30f93092ac0c67721190ba613f
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:	2016-10-03
+
+    Updated Italian translation
+
+M	po/it.po
+
+commit aa0696a47e1e961972b9899dbd2e2651dd9516df
+Author: Ask Hjorth Larsen <asklarsen@gmail.com>
+Date:	2016-09-29
+
+    Danish translation of documentation by scootergrisen
+
+M	help/Makefile.am
+A	help/da/da.po
+
+commit 423a1a17a03737595e8e311a9e3ad7b40bc999c7
+Author: gogo <trebelnik2@gmail.com>
+Date:	2016-09-22
+
+    Updated Croatian translation
+
+M	po/hr.po
+
+commit 4b04e3a7139746f0dab8d7a782836a6e7585cca1
+Author: Inaki Larranaga Murgoitio <dooteo@zundan.com>
+Date:	2016-09-19
+
+    Update Basque language
+
+M	po/eu.po
+
+commit 2048fb047b8d2fd9a28b04a0a62cfd7c6b05c6e6
+Author: Ask Hjorth Larsen <asklarsen@gmail.com>
+Date:	2016-09-19
+
+    Updated Danish translation
+
+M	po/da.po
+
+commit f8307f390d089b6ed40f5e2021dea03035f043a5
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2016-09-18
+
+    Release 3.22.0
+
+M	NEWS
+M	configure.ac
+
 commit a0fd6b74edded14304ec73b731188436009b675e
 Author: Anders Jonsson <anders.jonsson@norsjovallen.se>
-Date:   2016-09-17
+Date:	2016-09-17
 
     Add Swedish help translation
 

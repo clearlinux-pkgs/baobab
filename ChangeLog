@@ -1,13 +1,487 @@
-commit b1b0443002bb66971191e9244415a02910c78e72
+commit 2c3292fbe95e2108940b3191bb7c179c8c19e701
 Author: Stefano Facchini <stefano.facchini@gmail.com>
-Date:   2016-11-07
+Date:   2017-03-20
 
-    Release 3.22.1
+    Release 3.24.0
 
 M	NEWS
 M	configure.ac
 
-commit c3ed05a021da94f14d5ddb9f71b1514aaa493d76
+commit ca4e872c1007316c08bbfad025c90643a83fb4cb
+Author: Daniel Korostil <ted.korostiled@gmail.com>
+Date:	2017-03-20
+
+    Updated Ukrainian translation
+
+M	po/uk.po
+
+commit 1cb26d958ece58bd7354bef9570ad290e639d930
+Author: Seong-ho Cho <shcho@gnome.org>
+Date:	2017-03-19
+
+    Update Korean translation
+
+M	po/ko.po
+
+commit 70e982695c4d871671f8c3adc08186209fc070b4
+Author: Rūdolfs Mazurs <rudolfsm@src.gnome.org>
+Date:	2017-03-18
+
+    Update Latvian translation
+
+M	po/lv.po
+
+commit 1aa96d87a7eac79e771c61466b3a445bd0eae51a
+Author: Jordi Mas <jmas@softcatala.org>
+Date:	2017-03-14
+
+    Fixes to Catalan translation
+
+M	po/ca.po
+
+commit 5b283812a1e5c5b694f856ce985407574b78cd96
+Author: Yuri Myasoedov <ymyasoedov@yandex.ru>
+Date:	2017-03-14
+
+    Updated Russian translation
+
+M	po/ru.po
+
+commit e79738b58bd8eebe0167fdc6d05c079f409c0aca
+Author: Jordi Mas <jmas@softcatala.org>
+Date:	2017-03-12
+
+    Update Catalan translation
+
+M	po/ca.po
+
+commit cdf6c6e09ed094b62764d70ff14e3529894b73ac
+Author: Fran Dieguez <frandieguez@gnome.org>
+Date:	2017-03-11
+
+    Update Galician translation
+
+M	po/gl.po
+
+commit f108bd43d2b963a6fdd7647ed300e2db65afcfb8
+Author: Aurimas Černius <aurisc4@gmail.com>
+Date:	2017-03-10
+
+    Updated Lithuanian translation
+
+M	po/lt.po
+
+commit 1c771722d423eaf4a8bf9156a162c0a2d940281b
+Author: Balázs Meskó <meskobalazs@fedoraproject.org>
+Date:	2017-03-08
+
+    Update Hungarian translation
+
+M	po/hu.po
+
+commit 51604693b5fe222fe9209e24c4ed9c1cefe9cfc1
+Author: Joe Hansen <joedalton2@yahoo.dk>
+Date:	2017-03-07
+
+    Updated Danish translation
+
+M	po/da.po
+
+commit 582b647e1105ee1927673bf844dcc2d8fa2ebbf1
+Author: GNOME Translation Robot <gnome-sysadmin@gnome.org>
+Date:	2017-03-07
+
+    Update Scottish Gaelic translation
+
+    (cherry picked from commit c4933f5688946729c2596b2e93142a1f08c90302)
+
+M	po/gd.po
+
+commit 98dd9cfc897145495845417979a8ed74de8e37e2
+Author: Guillaume Bernard <contact.guib@guillaume-bernard.fr>
+Date:	2017-03-06
+
+    Update French translation
+
+M	po/fr.po
+
+commit 664ebb3ddbcbadab8aa69daa4e98e14ecde91b0e
+Author: Rafael Fontenelle <rafaelff@gnome.org>
+Date:	2017-02-28
+
+    Update Brazilian Portuguese translation
+
+M	po/pt_BR.po
+
+commit 0e5aebfa51fdb344636dd1d24c6163c617e08be4
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2017-02-27
+
+    Release 3.23.91
+
+M	NEWS
+M	configure.ac
+
+commit 4d86f40767390fb34f0365786393a938411bb2e4
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2017-02-27
+
+    Makevars: Do not regenerate automatically .po files
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=778965
+
+M	po/Makevars
+
+commit ef725d5c9d8cb87987417c7e4d697db6b66eba1c
+Author: Мирослав Николић <miroslavnikolic@rocketmail.com>
+Date:	2017-02-26
+
+    Updated Serbian translation
+
+M	po/sr.po
+M	po/sr@latin.po
+
+commit 073cd8ae8aa3a73eda3113477c3d1a69e10f632e
+Author: Rafael Fontenelle <rafaelff@gnome.org>
+Date:	2017-02-26
+
+    Update Brazilian Portuguese translation
+
+M	po/pt_BR.po
+
+commit ec1fb7ff9d5aeeb20725ce21e9d08b7c5aa2a9d3
+Author: Yannis Koutsoukos <giankoyt@gmail.com>
+Date:	2017-02-24
+
+    Update Greek translation
+
+M	po/el.po
+
+commit 851b50fbc6c7fbdc81d5513f29a86663bac76956
+Author: Ondrej Holy <oholy@redhat.com>
+Date:	2017-02-23
+
+    location-list: Reload recent locations instead of adding new
+
+    Each "Scan folder" adds a new location in the list if it is not
+    already
+    there. Consequently, the location list may be pretty overfilled. Let's
+    reload the recent items after each "Scan folder" instead. As the
+    result,
+    max 5 recent locations will be always shown.
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=695421
+
+M	src/baobab-location-list.vala
+M	src/baobab-location.vala
+
+commit 145ef02a37988e9111c1efcbc35ccb8ce07556ca
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:	2017-02-22
+
+    Update Italian translation
+
+M	po/it.po
+
+commit 2d925fbbfc208adb25699e2369b37cc2781bd41e
+Author: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>
+Date:	2017-02-22
+
+    Update Chinese (Taiwan) translation
+
+M	po/zh_TW.po
+
+commit f7c2cc8eefdb53196a792142f36ae46ffa658685
+Author: Claude Paroz <claude@2xlibre.net>
+Date:	2017-02-18
+
+    Updated French translation
+
+M	po/fr.po
+
+commit ce1948132df33f98ac5a8c22793912275c9f4445
+Author: Kjartan Maraas <kmaraas@gnome.org>
+Date:	2017-02-18
+
+    Updated Norwegian bokmål translation.
+
+M	po/nb.po
+
+commit 92477f47ef39e42f9be2813e547d4e925bfb8207
+Author: Mario Blättermann <mario.blaettermann@gmail.com>
+Date:	2017-02-17
+
+    Update German translation
+
+M	po/de.po
+
+commit 72a7886165294a263ce95db4038099899dcb0666
+Author: Ask Hjorth Larsen <asklarsen@gmail.com>
+Date:	2017-02-16
+
+    Updated Danish translation
+
+M	po/da.po
+
+commit fc260febba9bc8c50ceab990de9d8899d1fced12
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:	2017-02-16
+
+    Update Kazakh translation
+
+M	po/kk.po
+
+commit 0c1def6236d9d67cff64f3d75ee471b18f1418d0
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2017-02-13
+
+    Release 3.23.90
+
+M	NEWS
+M	configure.ac
+
+commit aab15ae7c4cc4236a66d8c8c3d9b7d3daf06167f
+Author: Kukuh Syafaat <syafaatkukuh@gmail.com>
+Date:	2017-02-13
+
+    Update Indonesian translation
+
+M	po/id.po
+
+commit 8d5c3b21426529ef797c33f8403813abe6e03d1a
+Author: Inaki Larranaga Murgoitio <dooteo@zundan.com>
+Date:	2017-02-11
+
+    Update Basque language
+
+M	po/eu.po
+
+commit e704b0b99da7a00ad75a8eeecb7fac14a21e37cd
+Author: Marek Černocký <marek@manet.cz>
+Date:	2017-02-10
+
+    Updated Czech translation
+
+M	po/cs.po
+
+commit 20be19afdca3d1cb4a350239e2aeaf9544042a39
+Author: Jeff Bai <jeffbai@aosc.xyz>
+Date:	2017-02-10
+
+    Update zh_CN translation
+
+M	po/zh_CN.po
+
+commit c8e0a793b032ed3aaa871ac761c7b3d1f7962b0f
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:	2017-02-04
+
+    Update Finnish translation
+
+M	po/fi.po
+
+commit edbcf91e35f21e19fe028a59aca93d1ce5665849
+Author: Anders Jonsson <anders.jonsson@norsjovallen.se>
+Date:	2017-02-02
+
+    Update Swedish translation
+
+M	po/sv.po
+
+commit 2e1962726d142871c2ae838a8e1776d9bfb7117f
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2017-01-20
+
+    Update Polish translation
+
+M	po/pl.po
+
+commit b0f3c1b41a2c61e003a687535a1a25142bfebd6e
+Author: Gianvito Cavasoli <gianvito@gmx.it>
+Date:	2017-01-20
+
+    Update Italian translation
+    (cherry picked from commit 625140c9525321ee91cf4d67d0d6f48eb4cb7562)
+
+M	po/it.po
+
+commit d57e080235a21c9bebeefeccd0bc0231a6072a61
+Author: Alexandre Franke <alexandre.franke@gmail.com>
+Date:	2017-01-20
+
+    Update French translation
+    (cherry picked from commit 4cadd99c2a2f51b5dc88be3d62db64a8fe42ec4d)
+
+M	po/fr.po
+
+commit 6ea302dc3ebd3041a54edb9eca8952929f0975af
+Author: Fabio Tomat <f.t.public@gmail.com>
+Date:	2017-01-19
+
+    Update Friulian translation
+
+M	po/fur.po
+
+commit 1543d7f5beba9c258c1aa6ce990c74c586b18f97
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:	2017-01-18
+
+    Update Slovak translation
+
+M	po/sk.po
+
+commit 28824482aa4399f067a8684aae010e5abdb387dc
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:	2017-01-18
+
+    Update Slovak translation
+
+M	po/sk.po
+
+commit 201c69a105e9e8f15757dff88fbbaf5416af6cf6
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2017-01-12
+
+    Fix Icon filename in Persian, Korean and Serbian translations
+
+M	po/fa.po
+M	po/ko.po
+M	po/sr.po
+
+commit 9c278216f18b20a80d9ddcecd5d0d6654dad0891
+Author: Sveinn í Felli <sv1@fellsnet.is>
+Date:	2017-01-09
+
+    Update Icelandic translation
+    (cherry picked from commit 16daca618bcb88692f261fb781f532bb6cf0c4ac)
+
+M	po/is.po
+
+commit a4da87fcf2a13f90e5402beae2ec5beece302994
+Author: Jordi Mas <jmas@softcatala.org>
+Date:	2017-01-07
+
+    Update Catalan translation
+
+M	po/ca.po
+
+commit 1f6ec48e593ac66266d97bb9552f8a54eebc8d23
+Author: Kjartan Maraas <kmaraas@gnome.org>
+Date:	2017-01-07
+
+    Updated Norwegian bokmål translation.
+
+M	po/nb.po
+
+commit 1fcdfdd3844945671076c7ab4c1402819f125bef
+Author: Stas Solovey <whats_up@tut.by>
+Date:	2016-12-29
+
+    Update Russian translation
+
+M	po/ru.po
+
+commit f94e34d471556196f77e1abe3d1c33327d8cb7fb
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:	2016-12-22
+
+    Updated Spanish translation
+
+M	po/es.po
+
+commit db4d10d6bb0e9fa219b7c41c16b4259f5c07e8e0
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:	2016-12-16
+
+    Update Finnish translation
+
+M	po/fi.po
+
+commit 12dd10928958e1e6fe6cbe207c7ab8962e1216e2
+Author: Fabio Tomat <f.t.public@gmail.com>
+Date:	2016-12-16
+
+    Update Friulian translation
+
+M	po/fur.po
+
+commit 86928d7da739b459a569c3828429aaeeec183f0b
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:	2016-12-13
+
+    Update Kazakh translation
+
+M	po/kk.po
+
+commit 60edd49e1abdafeaafbedf2340b7e8aa72563def
+Author: Anders Jonsson <anders.jonsson@norsjovallen.se>
+Date:	2016-11-28
+
+    Update Swedish translation
+
+M	po/sv.po
+
+commit c26a31bfec61402db53651f50431b7b7f2ca5f0f
+Author: Balázs Meskó <meskobalazs@gmail.com>
+Date:	2016-11-24
+
+    Update Hungarian translation
+
+M	po/hu.po
+
+commit 92a67f5a5c83d6cd8cbcd692fb195ede4a00714f
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2016-11-16
+
+    Update Polish translation
+
+M	po/pl.po
+
+commit cd8a5a2824fb850fdc48ba067defab567969a337
+Author: Marek Cernocky <marek_cernocky@conel.cz>
+Date:	2016-11-15
+
+    Updated Czech translation
+
+M	po/cs.po
+
+commit 83c5e571fe9e33bc5eb5678e3404f2c7ce435ce9
+Author: Mario Blättermann <mario.blaettermann@gmail.com>
+Date:	2016-11-14
+
+    Update German translation
+
+M	po/de.po
+
+commit 61f16523f0d8a9b49c997f4782a928183eb7af66
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2016-11-12
+
+    Update Polish translation
+
+M	po/pl.po
+
+commit 7686df0461eb9ce8d4c320800315ea9d76c02a7f
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2016-11-06
+
+    Use Unicode in translatable strings
+
+    See https://developer.gnome.org/hig/stable/typography.html
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=773998
+
+M	src/baobab-window.vala
+
+commit 651adc9cdb42c6e8694428dc39689b9d5332c8ff
+Author: Marek Cernocky <marek_cernocky@conel.cz>
+Date:	2016-11-08
+
+    Updated Czech translation
+
+M	po/cs.po
+
+commit 93e5bd19975206f4d95b7191187fad8e0074c940
 Author: Stefano Facchini <stefano.facchini@gmail.com>
 Date:	2016-11-05
 
@@ -16,6 +490,48 @@ Date:	2016-11-05
     https://bugzilla.gnome.org/show_bug.cgi?id=773981
 
 M	po/pt.po
+
+commit a207d6d5cee90e243c0929f30e0893b5f76b2036
+Author: Fabio Tomat <f.t.public@gmail.com>
+Date:	2016-11-03
+
+    Update Friulian translation
+
+M	po/fur.po
+
+commit 7618887a1127bda4b3f36b41205fd1885f11cc2a
+Author: Trần Ngọc Quân <vnwildman@gmail.com>
+Date:	2016-11-03
+
+    Updated Vietnamese translation
+
+    Signed-off-by: Trần Ngọc Quân <vnwildman@gmail.com>
+
+M	po/vi.po
+
+commit bb571d811d41ea632c2915a8aea1ed40dc4400b4
+Author: Flo H <gnu.l10n.de@gmail.com>
+Date:	2016-11-02
+
+    Update German translation
+
+M	po/de.po
+
+commit e73482e4049786a3955b3060084acbc7faadfb49
+Author: Enrico Nicoletto <liverig@gmail.com>
+Date:	2016-11-02
+
+    Update Brazilian Portuguese translation
+
+M	po/pt_BR.po
+
+commit 1a2c7f4a4aba66dfc9429df3699458a5f0db1239
+Author: Jürg Billeter <j@bitron.ch>
+Date:	2016-11-01
+
+    cellrenderers: Fix printf format strings
+
+M	src/baobab-cellrenderers.vala
 
 commit d8ed2df09f0af8e0824d3ef52507a6057ce252b8
 Author: Dz Chen <wsxy162@gmail.com>
@@ -11481,22 +11997,24 @@ Date:	2009-04-07
 
     2009-04-07	Cosimo Cecchi  <cosimoc@gnome.org>
 
-	* data/Makefile.am:
-	* data/baobab.glade:
-	* src/Makefile.am:
-	* src/baobab-prefs.c (create_props), (create_tree_props):
-	* src/baobab-treeview.c (create_directory_treeview):
-	* src/baobab-utils.c (set_ui_action_sens), (set_ui_widget_sens),
-	(show_label):
-	* src/baobab-utils.h:
-	* src/baobab.c (check_menu_sens), (baobab_scan_location),
-	(set_toolbar_visible), (set_statusbar_visible),
-	(baobab_create_toolbar), (baobab_create_statusbar), (baobab_init),
-	(initialize_ringschart), (main):
-	* src/baobab.h:
-	* src/callbacks.c (on_view_sb_activate):
-	* src/callbacks.h:
-	Port to GtkBuilder (#577940).
+	    * data/Makefile.am:
+	    * data/baobab.glade:
+	    * src/Makefile.am:
+	    * src/baobab-prefs.c (create_props), (create_tree_props):
+	    * src/baobab-treeview.c (create_directory_treeview):
+	    * src/baobab-utils.c (set_ui_action_sens),
+	    (set_ui_widget_sens),
+	    (show_label):
+	    * src/baobab-utils.h:
+	    * src/baobab.c (check_menu_sens), (baobab_scan_location),
+	    (set_toolbar_visible), (set_statusbar_visible),
+	    (baobab_create_toolbar), (baobab_create_statusbar),
+	    (baobab_init),
+	    (initialize_ringschart), (main):
+	    * src/baobab.h:
+	    * src/callbacks.c (on_view_sb_activate):
+	    * src/callbacks.h:
+	    Port to GtkBuilder (#577940).
 
     svn path=/trunk/; revision=8543
 
@@ -11548,8 +12066,8 @@ Date:	2009-03-16
 
     2009-03-16	Petr Kovar  <pknbe@volny.cz>
 
-	* cs/cs.po: Added Czech translation by Lucas Lommer.
-	* Makefile.am: Added cs to DOC_LINGUAS.
+	    * cs/cs.po: Added Czech translation by Lucas Lommer.
+	    * Makefile.am: Added cs to DOC_LINGUAS.
 
     svn path=/trunk/; revision=8494
 
@@ -11565,8 +12083,9 @@ Date:	2009-03-12
 
     2009-03-12	Claude Paroz  <claude@2xlibre.net>
 
-	* fi/figures/baobab_ringschart2.png: Removed figure identical to
-	original.
+	    * fi/figures/baobab_ringschart2.png: Removed figure
+	    identical to
+	    original.
 
     svn path=/trunk/; revision=8480
 
@@ -11581,11 +12100,12 @@ Date:	2009-03-12
 
     2009-03-12	Claude Paroz  <claude@2xlibre.net>
 
-	* fi/*: Removed executable property.
-	* sv/figures/baobab_treemaps.png:
-	* fi/figures/baobab_ringschart1.png:
-	* es/figures/baobab_ringschart1.png: Removed figures identical to
-	originals.
+	    * fi/*: Removed executable property.
+	    * sv/figures/baobab_treemaps.png:
+	    * fi/figures/baobab_ringschart1.png:
+	    * es/figures/baobab_ringschart1.png: Removed figures
+	    identical to
+	    originals.
 
     svn path=/trunk/; revision=8479
 
@@ -11609,9 +12129,9 @@ Date:	2009-03-12
 
     2009-03-12	Claude Paroz  <claude@2xlibre.net>
 
-	* C/baobab.xml: Fixed typo (double "is").
-	* */*.po: Fixed msgid in all translations.
-	Fixes bug #575119.
+	    * C/baobab.xml: Fixed typo (double "is").
+	    * */*.po: Fixed msgid in all translations.
+	    Fixes bug #575119.
 
     svn path=/trunk/; revision=8478
 
@@ -11664,7 +12184,7 @@ Date:	2009-03-02
 
     2009-03-02	Philip Withnall  <philip@tecnocode.co.uk>
 
-	* en_GB/en_GB.po: Updated British English translation.
+	    * en_GB/en_GB.po: Updated British English translation.
 
 
     svn path=/trunk/; revision=8456
@@ -11680,12 +12200,12 @@ Date:	2009-02-17
 
     2009-02-17	Inaki Larranaga Murgoitio  <dooteo@euskalgnu.org>
 
-	* eu/figures/: Added image in Basque language. Images are:
-		baobab_treemaps.png
-		baobab_prefs.png
-		baobab_window.png
-		baobab_fullscan.png
-		baobab_remote.png
+	    * eu/figures/: Added image in Basque language. Images are:
+		    baobab_treemaps.png
+		    baobab_prefs.png
+		    baobab_window.png
+		    baobab_fullscan.png
+		    baobab_remote.png
 
 
     svn path=/trunk/; revision=8419
@@ -11705,8 +12225,8 @@ Date:	2009-02-16
 
     2009-02-16	Inaki Larranaga Murgoitio  <dooteo@euskalgnu.org>
 
-	* eu/eu.po: Added Basque translation.
-	* Makefile.am: Added 'eu' to DOC_LINGUAS.
+	    * eu/eu.po: Added Basque translation.
+	    * Makefile.am: Added 'eu' to DOC_LINGUAS.
 
 
 
@@ -11736,7 +12256,7 @@ Date:	2009-02-05
 
     2009-02-05	Tomasz Dominikowski  <tdominikowski@aviary.pl>
 
-	* pl/pl.po: Added Polish translation
+	    * pl/pl.po: Added Polish translation
 
     svn path=/trunk/; revision=8395
 
@@ -11844,8 +12364,8 @@ Date:	2008-11-22
 
     2008-11-22	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c:
-	Fix excluded locations sanity check.
+	    * src/baobab.c:
+	    Fix excluded locations sanity check.
 
 
     svn path=/trunk/; revision=8190
@@ -11861,8 +12381,8 @@ Date:	2008-11-22
 
     2008-11-22	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c: (baobab_is_excluded_location):
-	Fix logic bug that made it return always FALSE.
+	    * src/baobab.c: (baobab_is_excluded_location):
+	    Fix logic bug that made it return always FALSE.
 
 
     svn path=/trunk/; revision=8188
@@ -11904,7 +12424,7 @@ Date:	2008-10-26
 	    (baobab_help_display):
 	    * src/baobab.c:
 	    (main):
-	Drop libgnome dependency (#557264).
+	    Drop libgnome dependency (#557264).
 
     svn path=/trunk/; revision=8168
 
@@ -11949,7 +12469,7 @@ Date:	2008-10-04
 
     2008-10-04	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-utils.c: small cleanup patch by Kristian Rumberg.
+	    * src/baobab-utils.c: small cleanup patch by Kristian Rumberg.
 
     svn path=/trunk/; revision=8140
 
@@ -11964,7 +12484,7 @@ Date:	2008-09-23
 
     2008-09-23	Claude Paroz  <claude@2xlibre.net>
 
-	* fr/fr.po: Updated French translation.
+	    * fr/fr.po: Updated French translation.
 
     svn path=/trunk/; revision=8130
 
@@ -12061,9 +12581,11 @@ Date:	2008-08-30
 
     2008-08-30	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-scan.c: Skip all subdirs of ~/.gvfs in order to avoid
-	scanning gvfs fuse mounts as local files. It would be cool to have
-	a less hackish way to do it.
+	    * src/baobab-scan.c: Skip all subdirs of ~/.gvfs in order
+	    to avoid
+	    scanning gvfs fuse mounts as local files. It would be cool
+	    to have
+	    a less hackish way to do it.
 
 
     svn path=/trunk/; revision=8037
@@ -12079,18 +12601,19 @@ Date:	2008-08-04
 
     2008-08-04	Paolo Borelli  <pborelli@katamail.com>
 
-	Patch contributed by Eduardo Lima <elima@igalia.com>, bug #541407
+	    Patch contributed by Eduardo Lima <elima@igalia.com>,
+	    bug #541407
 
-	* src/baobab-chart.c:
-	* src/baobab.c:
-	* src/baobab-ringschart.c:
-	* src/baobab-chart.h:
-	* src/baobab.h:
-	* src/baobab-rngschart.h:
-	* src/callbacks.c:
-	* src/callbacks.h:
+	    * src/baobab-chart.c:
+	    * src/baobab.c:
+	    * src/baobab-ringschart.c:
+	    * src/baobab-chart.h:
+	    * src/baobab.h:
+	    * src/baobab-rngschart.h:
+	    * src/callbacks.c:
+	    * src/callbacks.h:
 
-	Reimplemeny the ringschart as a subclass of BaobabChart.
+	    Reimplemeny the ringschart as a subclass of BaobabChart.
 
 
     svn path=/trunk/; revision=7986
@@ -12124,7 +12647,8 @@ Date:	2008-07-25
 
     2008-07-25	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-treemap.c: include headers to fix compiler warnings.
+	    * src/baobab-treemap.c: include headers to fix compiler
+	    warnings.
 
 
     svn path=/trunk/; revision=7979
@@ -12217,7 +12741,7 @@ Date:	2008-06-30
     Fixed a typo applying the last patch.
 
 
-	* src/baobab-treemap.h: Fixed a typo applying the last patch.
+	    * src/baobab-treemap.h: Fixed a typo applying the last patch.
 
 
     svn path=/trunk/; revision=7956
@@ -12229,56 +12753,67 @@ commit e6c44f2fabcce041c1f209fffbfbf720794f2c19
 Author: Alejandro Garcia Castro <acastro@src.gnome.org>
 Date:	2008-06-28
 
-	Patch contributed by Eduardo Lima <elima@igalia.com>, bug #530512
+	    Patch contributed by Eduardo Lima <elima@igalia.com>,
+	    bug #530512
 
-	Implemented a new treemap object and moved into the main window,
-	now we can select with a combobox in the main window which graph
-	we want: ringschart or treemap. We have used the ringschart code
-	in order to create a new abstract class and the new treemap just
-	inherits from it and changes the rendering, in the near future we
-	will change the ringschart in order to use this new abstract
-	class.
+	    Implemented a new treemap object and moved into the main
+	    window,
+	    now we can select with a combobox in the main window which
+	    graph
+	    we want: ringschart or treemap. We have used the ringschart
+	    code
+	    in order to create a new abstract class and the new treemap
+	    just
+	    inherits from it and changes the rendering, in the near
+	    future we
+	    will change the ringschart in order to use this new abstract
+	    class.
 
-	* data/baobab.glade:
-	* src/Makefile.am:
-	* src/baobab-graphwin.c:
-	* src/baobab-graphwin.h:
-	* src/baobab-tree-map.c:
-	* src/baobab-tree-map.h:
-	* src/baobab-treeview.c
-	(on_tv_cur_changed),
-	(on_tv_button_press):
-	* src/baobab-utils.c
-	(popupmenu_list):
-	* src/callbacks.h:
-	* src/callbacks.c
-	(on_tv_selection_changed),
-	(on_move_upwards_cb),
-	(on_zoom_in_cb),
-	(on_zoom_out_cb),
-	(on_chart_type_change):
-	Removed files, code and options in the menu that were used to show
-	the old treemap. Notice we have removed GnomeCanvas dependency
-	which was removed in the configure.ac file
+	    * data/baobab.glade:
+	    * src/Makefile.am:
+	    * src/baobab-graphwin.c:
+	    * src/baobab-graphwin.h:
+	    * src/baobab-tree-map.c:
+	    * src/baobab-tree-map.h:
+	    * src/baobab-treeview.c
+	    (on_tv_cur_changed),
+	    (on_tv_button_press):
+	    * src/baobab-utils.c
+	    (popupmenu_list):
+	    * src/callbacks.h:
+	    * src/callbacks.c
+	    (on_tv_selection_changed),
+	    (on_move_upwards_cb),
+	    (on_zoom_in_cb),
+	    (on_zoom_out_cb),
+	    (on_chart_type_change):
+	    Removed files, code and options in the menu that were used
+	    to show
+	    the old treemap. Notice we have removed GnomeCanvas dependency
+	    which was removed in the configure.ac file
 
 	    * src/baobab-chart.c:
 	    * src/baobab-chart.h:
 	    * src/baobab-treemap.c:
 	    * src/baobab-treemap.h:
-	New objects, the chart is the new abstract class, the treemap is
-	the new graphical representation, treemap inherits from chart. As
-	we said before the code from chart is copied from ringschart, in
-	the near future we must change ringschart in order to inherit also
-	from chart.
+	    New objects, the chart is the new abstract class, the
+	    treemap is
+	    the new graphical representation, treemap inherits from
+	    chart. As
+	    we said before the code from chart is copied from ringschart,
+	    in
+	    the near future we must change ringschart in order to
+	    inherit also
+	    from chart.
 
-	* src/baobab.h:
-	* src/baobab.c
-	(baobab_set_busy),
-	(check_menu_sens),
-	(baobab_scan_location),
-	(initialize_ringschart),
-	(main):
-	Added the code to manage the new treemap in the program.
+	    * src/baobab.h:
+	    * src/baobab.c
+	    (baobab_set_busy),
+	    (check_menu_sens),
+	    (baobab_scan_location),
+	    (initialize_ringschart),
+	    (main):
+	    Added the code to manage the new treemap in the program.
 
 
     svn path=/trunk/; revision=7954
@@ -12309,8 +12844,9 @@ Date:	2008-05-14
     (#532479)
 
 
-	* data/baobab.schemas.in: Fixed a misspelled sentence describing
-	the goal of one gconf key (#532479)
+	    * data/baobab.schemas.in: Fixed a misspelled sentence
+	    describing
+	    the goal of one gconf key (#532479)
 
 
     svn path=/trunk/; revision=7932
@@ -12338,14 +12874,16 @@ Date:	2008-05-11
     leak
 
 
-	* src/baobab-ringschart.c: Added a new extended timeout for the
-	subfolders tooltips. A memory leak and some small style
-	modifications.
-	(draw_tooltips): extended the condition for drawing the subfolders
-	tooltips, we do not draw them until the second timeout.
-	(draw_folder_tip): Fixed a memory leak.
-	(baobab_ringschart_no_pointer_motion): Added a second timeout
-	where we set to TRUE the draw_children_tooltips variable.
+	    * src/baobab-ringschart.c: Added a new extended timeout
+	    for the
+	    subfolders tooltips. A memory leak and some small style
+	    modifications.
+	    (draw_tooltips): extended the condition for drawing the
+	    subfolders
+	    tooltips, we do not draw them until the second timeout.
+	    (draw_folder_tip): Fixed a memory leak.
+	    (baobab_ringschart_no_pointer_motion): Added a second timeout
+	    where we set to TRUE the draw_children_tooltips variable.
 
 
     svn path=/trunk/; revision=7929
@@ -12360,10 +12898,12 @@ Date:	2008-05-11
     Remove three lines setting the status of the application from this
 
 
-	* src/baobab.c:
-	(baobab_stop_scan): Remove three lines setting the status of the
-	application from this function, baobab_scan_location is already
-	doing these actions, so the functions were called twice.
+	    * src/baobab.c:
+	    (baobab_stop_scan): Remove three lines setting the status
+	    of the
+	    application from this function, baobab_scan_location is
+	    already
+	    doing these actions, so the functions were called twice.
 
 
     svn path=/trunk/; revision=7928
@@ -12398,67 +12938,83 @@ Date:	2008-05-08
     Patch contributed by Felipe Erias <femorandeira@igalia.com>, Pablo
 
 
-	Patch contributed by Felipe Erias <femorandeira@igalia.com>, Pablo
-	Santamaria <psantamaria@igalia.com>, Jacobo Aragunde
-	<jaragunde@igalia.com> and Eduardo Lima <elima@igalia.com>
+	    Patch contributed by Felipe Erias <femorandeira@igalia.com>,
+	    Pablo
+	    Santamaria <psantamaria@igalia.com>, Jacobo Aragunde
+	    <jaragunde@igalia.com> and Eduardo Lima <elima@igalia.com>
 
-	Enhancement to the ringschart widget, added multiple tooltips
-	support (bug #421473)
+	    Enhancement to the ringschart widget, added multiple tooltips
+	    support (bug #421473)
 
-	* src/baobab.c:
-	(baobab_scan_location): We set the max depth after scanning in
-	order to zoom the graphic as much as possible.
-	(baobab_subfolderstips_toggled): This function is a callback that
-	manages changes in the gconf key that controls the subfolders
-	tips.
-	(baobab_init): Monitor the gconf subfolders tooltips key
-	connecting the callback.
-	(create_context_menu): Create a context menu with three actions:
-	go to the parent, zoom in and zoom out.
-	(initialize_ringschart): Initialize max_depth so we get the
-	biggest zoom for the initial ringschart. We also get the gconf
-	value for the subfolders tips and create the context menu.
+	    * src/baobab.c:
+	    (baobab_scan_location): We set the max depth after scanning in
+	    order to zoom the graphic as much as possible.
+	    (baobab_subfolderstips_toggled): This function is a callback
+	    that
+	    manages changes in the gconf key that controls the subfolders
+	    tips.
+	    (baobab_init): Monitor the gconf subfolders tooltips key
+	    connecting the callback.
+	    (create_context_menu): Create a context menu with three
+	    actions:
+	    go to the parent, zoom in and zoom out.
+	    (initialize_ringschart): Initialize max_depth so we get the
+	    biggest zoom for the initial ringschart. We also get the gconf
+	    value for the subfolders tips and create the context menu.
 
-	* src/baobab.h:
-	Added a new struct to manage the context menu. Added also a new
-	variable to the baobab_application struct, it is used to store the
-	maximum depth of the tree we are representing.
+	    * src/baobab.h:
+	    Added a new struct to manage the context menu. Added also
+	    a new
+	    variable to the baobab_application struct, it is used to
+	    store the
+	    maximum depth of the tree we are representing.
 
-	* src/baobab-ringschart.c:
-	* src/baobab-ringschart.h:
-	Added two functions to the API in order to control the new
-	feature, adding subfolderstips. If we enable the subfoldertips we
-	will see the tooltip for the sector (directory) under the cursor
-	and tooltips for "some" of its children.
+	    * src/baobab-ringschart.c:
+	    * src/baobab-ringschart.h:
+	    Added two functions to the API in order to control the new
+	    feature, adding subfolderstips. If we enable the subfoldertips
+	    we
+	    will see the tooltip for the sector (directory) under
+	    the cursor
+	    and tooltips for "some" of its children.
 
-	The way the tooltip for the sector under the cursor is painted has
-	changed, now the tooltip is not painted all the time, if follows
-	the cursor and the user has to stop over the sector.
+	    The way the tooltip for the sector under the cursor is
+	    painted has
+	    changed, now the tooltip is not painted all the time,
+	    if follows
+	    the cursor and the user has to stop over the sector.
 
-	Added zoom support to the widget, it is connected to the
-	scrolling.
+	    Added zoom support to the widget, it is connected to the
+	    scrolling.
 
-	* src/callbacks.c:
-	* src/callbacks.h:
-	(on_rchart_button_release): Callback that handles the context
-	sensitive menu.
-	(on_move_upwards_cb): Callback for an option in the menu, it tries
-	to go to parent of the current directory.
-	(on_zoom_in_cb): Callback for an option in the menu, it decreases
-	the maximum depth of the ringschart, that way the graphic is
-	bigger because we paint less levels.
-	(on_zoom_out_cb): Callback for an option in the menu, it increases
-	the maximum depth of the ringschart, that way the graphic is
-	smaller because we paint more levels.
+	    * src/callbacks.c:
+	    * src/callbacks.h:
+	    (on_rchart_button_release): Callback that handles the context
+	    sensitive menu.
+	    (on_move_upwards_cb): Callback for an option in the menu,
+	    it tries
+	    to go to parent of the current directory.
+	    (on_zoom_in_cb): Callback for an option in the menu,
+	    it decreases
+	    the maximum depth of the ringschart, that way the graphic is
+	    bigger because we paint less levels.
+	    (on_zoom_out_cb): Callback for an option in the menu,
+	    it increases
+	    the maximum depth of the ringschart, that way the graphic is
+	    smaller because we paint more levels.
 
-	* src/baobab-scan.c:
-	Added a new parameter to the allsizes struct in order to calculate
-	the depth of the tree.
-	(loopdir): Added a new parameter in order to calculate the depth
-	of the tree.
-	(baobab_scan_execute): Store the maximum depth of the tree we have
-	scanned in the application structure. We will use it to calculate
-	the proper zoom for the tree.
+	    * src/baobab-scan.c:
+	    Added a new parameter to the allsizes struct in order to
+	    calculate
+	    the depth of the tree.
+	    (loopdir): Added a new parameter in order to calculate
+	    the depth
+	    of the tree.
+	    (baobab_scan_execute): Store the maximum depth of the tree
+	    we have
+	    scanned in the application structure. We will use it to
+	    calculate
+	    the proper zoom for the tree.
 
 
     svn path=/trunk/; revision=7923
@@ -12527,8 +13083,8 @@ Date:	2008-05-05
 
     2008-05-04	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-remote-connect-dialog.c:
-	More fixups for the dialog
+	    * src/baobab-remote-connect-dialog.c:
+	    More fixups for the dialog
 
     svn path=/trunk/; revision=7916
 
@@ -12556,12 +13112,12 @@ Date:	2008-05-04
 
     2008-05-04	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-remote-connect-dialog.c:
-	* src/baobab-remote-connect-dialog.h:
-	* src/callbacks.c:
-	First cut at gio port of the remote connect dialog (mostly
-	borrowing
-	code from nautilus).
+	    * src/baobab-remote-connect-dialog.c:
+	    * src/baobab-remote-connect-dialog.h:
+	    * src/callbacks.c:
+	    First cut at gio port of the remote connect dialog (mostly
+	    borrowing
+	    code from nautilus).
 
     svn path=/trunk/; revision=7913
 
@@ -12579,15 +13135,16 @@ Date:	2008-05-03
 
     2008-05-03	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c:
-	* src/baobab.h:
-	* src/baobab-scan.c:
-	* src/baobab-treeview.c:
-	* src/baobab-treeview.h:
-	* src/callbacks.c:
-	Store the parse name in the model so that we do not have to use
-	path or uri condtionally to the fact that the file is local
-	or remote.
+	    * src/baobab.c:
+	    * src/baobab.h:
+	    * src/baobab-scan.c:
+	    * src/baobab-treeview.c:
+	    * src/baobab-treeview.h:
+	    * src/callbacks.c:
+	    Store the parse name in the model so that we do not have
+	    to use
+	    path or uri condtionally to the fact that the file is local
+	    or remote.
 
 
     svn path=/trunk/; revision=7912
@@ -12609,13 +13166,14 @@ Date:	2008-05-03
 
     2008-05-03	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c:
-	* src/baobab.h:
-	* src/baobab-scan.c:
-	get the display name from gio instead of manually getting the
-	basename.
-	Also be robust to the fact that remote files have no path, so that
-	needs to be checked before comparin with "/proc".
+	    * src/baobab.c:
+	    * src/baobab.h:
+	    * src/baobab-scan.c:
+	    get the display name from gio instead of manually getting
+	    the basename.
+	    Also be robust to the fact that remote files have no path,
+	    so that
+	    needs to be checked before comparin with "/proc".
 
 
     svn path=/trunk/; revision=7911
@@ -12634,10 +13192,11 @@ Date:	2008-05-03
 
     2008-05-03	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c:
-	* src/baobab.h:
-	now that baobab-scan has been ported to gio baobab_is_excluded_dir
-	can be removed.
+	    * src/baobab.c:
+	    * src/baobab.h:
+	    now that baobab-scan has been ported to gio
+	    baobab_is_excluded_dir
+	    can be removed.
 
 
     svn path=/trunk/; revision=7910
@@ -12674,10 +13233,10 @@ Date:	2008-05-03
 
     2008-05-03	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c:
-	* src/baobab-scan.c:
-	* src/baobab-utils.c:
-	Some leak fixes and cleanups by Cosimo Cecchi.
+	    * src/baobab.c:
+	    * src/baobab-scan.c:
+	    * src/baobab-utils.c:
+	    Some leak fixes and cleanups by Cosimo Cecchi.
 
 
     svn path=/trunk/; revision=7906
@@ -12696,8 +13255,9 @@ Date:	2008-05-02
 
     2008-05-02	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-scan.c: pass in the GFileInfo to the recursive loop
-	to avoid to call stat() again on each file.
+	    * src/baobab-scan.c: pass in the GFileInfo to the recursive
+	    loop
+	    to avoid to call stat() again on each file.
 
 
     svn path=/trunk/; revision=7905
@@ -12713,11 +13273,12 @@ Date:	2008-05-02
 
     2008-05-02	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c:
-	Ref the location before rescanning otherwise the current location
-	gets finalized. Also make sure the Rescan button is insensitive
-	when
-	there is no current location.
+	    * src/baobab.c:
+	    Ref the location before rescanning otherwise the current
+	    location
+	    gets finalized. Also make sure the Rescan button is
+	    insensitive when
+	    there is no current location.
 
 
     svn path=/trunk/; revision=7904
@@ -12735,10 +13296,10 @@ Date:	2008-05-02
 
     2008-05-02	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-scan.c:
-	* src/baobab-scan.h:
-	* src/baobab.c:
-	Rename getDir to baobab_scan_execute and make it take a GFile.
+	    * src/baobab-scan.c:
+	    * src/baobab-scan.h:
+	    * src/baobab.c:
+	    Rename getDir to baobab_scan_execute and make it take a GFile.
 
 
     svn path=/trunk/; revision=7903
@@ -12777,10 +13338,10 @@ Date:	2008-05-02
 
     2008-05-02	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c:
-	* src/baobab.h:
-	* src/callbacks.c:
-	Make the cursor busy in the set_busy function.
+	    * src/baobab.c:
+	    * src/baobab.h:
+	    * src/callbacks.c:
+	    Make the cursor busy in the set_busy function.
 
 
     svn path=/trunk/; revision=7900
@@ -12826,11 +13387,12 @@ Date:	2008-05-01
 
     2008-05-01	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-utils.c:
-	* src/baobab-treeview.c:
-	* src/callbacks.c:
-	Factor out a can_trash_file util and use the proper display name
-	when showing an error about failed trashing of a file.
+	    * src/baobab-utils.c:
+	    * src/baobab-treeview.c:
+	    * src/callbacks.c:
+	    Factor out a can_trash_file util and use the proper display
+	    name
+	    when showing an error about failed trashing of a file.
 
 
     svn path=/trunk/; revision=7896
@@ -12850,13 +13412,14 @@ Date:	2008-05-01
 
     2008-05-01	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-utils.c:
-	* src/baobab.c:
-	* src/baobab.h:
-	* src/callbacks.c:
-	Rename "start_proc_on_location" to "baobab_scan_location" for
-	consistency with the rest of the API and move the stop_scan method
-	to the main baobab API.
+	    * src/baobab-utils.c:
+	    * src/baobab.c:
+	    * src/baobab.h:
+	    * src/callbacks.c:
+	    Rename "start_proc_on_location" to "baobab_scan_location" for
+	    consistency with the rest of the API and move the stop_scan
+	    method
+	    to the main baobab API.
 
 
     svn path=/trunk/; revision=7895
@@ -12876,14 +13439,15 @@ Date:	2008-05-01
 
     2008-05-01	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-utils.c:
-	* src/baobab.c:
-	* src/baobab.h:
-	* src/baobab-prefs.c:
-	* src/baobab-scan.c:
+	    * src/baobab-utils.c:
+	    * src/baobab.c:
+	    * src/baobab.h:
+	    * src/baobab-prefs.c:
+	    * src/baobab-scan.c:
 
-	Make the list of excluded dirs private to baobab.c in preparation
-	to turn it into a list of GFiles.
+	    Make the list of excluded dirs private to baobab.c in
+	    preparation
+	    to turn it into a list of GFiles.
 
 
     svn path=/trunk/; revision=7893
@@ -12903,22 +13467,22 @@ Date:	2008-04-30
 
     2008-04-29	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-remote-connect-dialog.c:
-	* src/baobab-remote-connect-dialog.h:
-	Add a getter for the selected uri instead of abusing of
-	'last_scan_command'
+	    * src/baobab-remote-connect-dialog.c:
+	    * src/baobab-remote-connect-dialog.h:
+	    Add a getter for the selected uri instead of abusing of
+	    'last_scan_command'
 
-	* src/baobab-utils.c:
-	use baobab_rescan_current_dir instead of open coding it
+	    * src/baobab-utils.c:
+	    use baobab_rescan_current_dir instead of open coding it
 
-	* src/baobab.c:
-	* src/baobab.h:
-	Remove last_scan_command and use a private GFile location
-	to remember
-	the current scan. Factor out functions to scan home and root.
+	    * src/baobab.c:
+	    * src/baobab.h:
+	    Remove last_scan_command and use a private GFile location
+	    to remember
+	    the current scan. Factor out functions to scan home and root.
 
-	* src/callbacks.c
-	Adapt to the above changes
+	    * src/callbacks.c
+	    Adapt to the above changes
 
     svn path=/trunk/; revision=7892
 
@@ -12979,7 +13543,7 @@ Date:	2008-04-06
 
     2008-04-07	Vasiliy Faronov  <qvvx@yandex.ru>
 
-	* ru/ru.po: Added Russian translation.
+	    * ru/ru.po: Added Russian translation.
 
 
     svn path=/trunk/; revision=7876
@@ -13000,8 +13564,8 @@ Date:	2008-03-26
 
     2008-03-26	Sebastien Bacher  <seb128@ubuntu.com>
 
-	* src/baobab.c: (main): fix strings not marked as translatable
-	(#523524)
+	    * src/baobab.c: (main): fix strings not marked as translatable
+	    (#523524)
 
 
     svn path=/trunk/; revision=7855
@@ -13100,13 +13664,13 @@ Date:	2008-03-07
 
     2008-03-07	Emmanuele Bassi  <ebassi@gnome.org>
 
-	* baobab/data/baobab.desktop.in.in:
-	* gfloppy/gfloppy.desktop.in:
-	* gnome-dictionary/data/gnome-dictionary.desktop.in.in:
-	* gnome-screenshot/gnome-screenshot.desktop.in:
-	* gsearchtool/gnome-search-tool.desktop.in:
-	* logview/gnome-system-log.desktop.in.in: Do not show the
-	gnome-util components on KDE. (#431117 and #520913)
+	    * baobab/data/baobab.desktop.in.in:
+	    * gfloppy/gfloppy.desktop.in:
+	    * gnome-dictionary/data/gnome-dictionary.desktop.in.in:
+	    * gnome-screenshot/gnome-screenshot.desktop.in:
+	    * gsearchtool/gnome-search-tool.desktop.in:
+	    * logview/gnome-system-log.desktop.in.in: Do not show the
+	    gnome-util components on KDE. (#431117 and #520913)
 
     svn path=/trunk/; revision=7831
 
@@ -13131,9 +13695,9 @@ Date:	2008-02-27
 
     2008-02-27	Luca Ferretti  <elle.uca@libero.it>
 
-	* Makefile.am:
-	* it.po:
-	Added Italian translation by Andrea Zagli.
+	    * Makefile.am:
+	    * it.po:
+	    Added Italian translation by Andrea Zagli.
 
 
     svn path=/trunk/; revision=7816
@@ -13172,7 +13736,7 @@ Date:	2008-01-11
 
     2008-01-11	Claude Paroz  <claude@2xlibre.net>
 
-	* fr/fr.po: Updated French translation.
+	    * fr/fr.po: Updated French translation.
 
     svn path=/trunk/; revision=7781
 
@@ -13188,11 +13752,11 @@ Date:	2008-01-08
 
     2008-01-05	Christian Kirbach <Christian.Kirbach@googlemail.com>
 
-	* pixmaps/24x24/Makefile.am (update-icon-cache):
-	* pixmaps/scalable/Makefile.am (update-icon-cache): run
-	gtk-update-icon-cache for
-	install-hook and uninstall-hook. Fixes #436204
-	Original patch by Brian Pepple <bpepple@fedoraproject.org>
+	    * pixmaps/24x24/Makefile.am (update-icon-cache):
+	    * pixmaps/scalable/Makefile.am (update-icon-cache): run
+	    gtk-update-icon-cache for
+	    install-hook and uninstall-hook. Fixes #436204
+	    Original patch by Brian Pepple <bpepple@fedoraproject.org>
 
     svn path=/trunk/; revision=7776
 
@@ -13236,8 +13800,10 @@ Date:	2007-12-14
 
     2007-12-14	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c: start processing the uri given on command line in
-	an idle so that the main loop is properly started. Fixes #497415.
+	    * src/baobab.c: start processing the uri given on command
+	    line in
+	    an idle so that the main loop is properly started. Fixes
+	    #497415.
 
 
     svn path=/trunk/; revision=7765
@@ -13366,8 +13932,8 @@ Date:	2007-09-05
 
     2007-09-05	Emmanuele Bassi  <ebassi@gnome.org>
 
-	* src/baobab-scan.c:
-	BUGZILLA #473833 - Infinite recursion in /sys
+	    * src/baobab-scan.c:
+	    BUGZILLA #473833 - Infinite recursion in /sys
 
     svn path=/trunk/; revision=7628
 
@@ -13383,13 +13949,13 @@ Date:	2007-09-04
 
     2007-09-04	Emmanuele Bassi  <ebassi@gnome.org>
 
-	* gnome-screenshot/gnome-screenshot.desktop.in:
-	* baobab/data/baobab.desktop.in.in:
-	* gnome-dictionary/data/gnome-dictionary.desktop.in.in:
-	* gsearchtool/gnome-search-tool.desktop.in:
-	* logview/gnome-system-log.desktop.in.in:
-	* gfloppy/gfloppy.desktop.in: Only show the GNOME Utilities
-	in GNOME menus. (#431117, Sven Arvidsson)
+	    * gnome-screenshot/gnome-screenshot.desktop.in:
+	    * baobab/data/baobab.desktop.in.in:
+	    * gnome-dictionary/data/gnome-dictionary.desktop.in.in:
+	    * gsearchtool/gnome-search-tool.desktop.in:
+	    * logview/gnome-system-log.desktop.in.in:
+	    * gfloppy/gfloppy.desktop.in: Only show the GNOME Utilities
+	    in GNOME menus. (#431117, Sven Arvidsson)
 
     svn path=/trunk/; revision=7625
 
@@ -13424,13 +13990,14 @@ Date:	2007-08-17
 
     2007-08-17	Emmanuele Bassi  <ebassi@gnome.org>
 
-	* baobab/data/baobab.desktop.in.in:
-	* gfloppy/gfloppy.desktop.in:
-	* gnome-dictionary/data/gnome-dictionary.desktop.in.in:
-	* gnome-screenshot/gnome-screenshot.desktop.in:
-	* gsearchtool/gnome-search-tool.desktop.in:
-	* logview/gnome-system-log.desktop.in.in: Remove invalid .desktop
-	category "Application". (#417654, Christian Kirbach)
+	    * baobab/data/baobab.desktop.in.in:
+	    * gfloppy/gfloppy.desktop.in:
+	    * gnome-dictionary/data/gnome-dictionary.desktop.in.in:
+	    * gnome-screenshot/gnome-screenshot.desktop.in:
+	    * gsearchtool/gnome-search-tool.desktop.in:
+	    * logview/gnome-system-log.desktop.in.in: Remove invalid
+	    .desktop
+	    category "Application". (#417654, Christian Kirbach)
 
     svn path=/trunk/; revision=7572
 
@@ -13493,8 +14060,8 @@ Date:	2007-06-03
 
     2007-06-03	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-utils.c: make sure that file chooser pointer
-	is nullified upon destruction.
+	    * src/baobab-utils.c: make sure that file chooser pointer
+	    is nullified upon destruction.
 
 
     svn path=/trunk/; revision=7513
@@ -13510,7 +14077,7 @@ Date:	2007-06-02
 
     2007-06-02	Jordi Mas <jmas@softcatala.org>
 
-	* ca/ca.po: Catalan translation by Gil Forcada
+	    * ca/ca.po: Catalan translation by Gil Forcada
 
 
     svn path=/trunk/; revision=7510
@@ -13561,7 +14128,7 @@ Date:	2007-03-13
 
     2007-03-13 Maxim Dziumanenko <dziumanenko@gmail.com>
 
-	* Update Ukrainian translation.
+	    * Update Ukrainian translation.
 
 
     svn path=/trunk/; revision=7463
@@ -13635,10 +14202,10 @@ Date:	2007-02-26
 
     2007-02-26	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baoab-treeview.c:
-	* src/callbacks.c:
+	    * src/baoab-treeview.c:
+	    * src/callbacks.c:
 
-	Resort when toggling "allocated space".
+	    Resort when toggling "allocated space".
 
 
     svn path=/trunk/; revision=7427
@@ -13690,8 +14257,8 @@ Date:	2007-01-09
 
     2007-01-09	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-ringschart.c: do not assert that percentage
-	is > 0, it can be -1 when the scan is stopped.
+	    * src/baobab-ringschart.c: do not assert that percentage
+	    is > 0, it can be -1 when the scan is stopped.
 
 
     svn path=/trunk/; revision=7323
@@ -13707,17 +14274,17 @@ Date:	2007-01-04
 
     2007-01-04	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c:
-	* src/baobab-treeview.c:
-	* src/baobab-ringschart.c:
-	* src/baobab-utils.c:
+	    * src/baobab.c:
+	    * src/baobab-treeview.c:
+	    * src/baobab-ringschart.c:
+	    * src/baobab-utils.c:
 
-	Turn the percentage column is a double, since ringschart
-	uses it for display calculation and since the progress cell
-	renderer uses doubles. Percentage set to -1 now means that
-	analysis is in progress.
-	Drop the percentual text string from the model, we can use
-	a simple cell_data_function and save some memory.
+	    Turn the percentage column is a double, since ringschart
+	    uses it for display calculation and since the progress cell
+	    renderer uses doubles. Percentage set to -1 now means that
+	    analysis is in progress.
+	    Drop the percentual text string from the model, we can use
+	    a simple cell_data_function and save some memory.
 
 
     svn path=/trunk/; revision=7309
@@ -13750,9 +14317,9 @@ Date:	2006-12-12
 
     2006-12-12	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-ringschart.c (baobab_ringschart_motion_notify):
-	simplify logic and fix drawing problem of the central circle
-	when crossing the x axis.
+	    * src/baobab-ringschart.c (baobab_ringschart_motion_notify):
+	    simplify logic and fix drawing problem of the central circle
+	    when crossing the x axis.
 
 M	ChangeLog
 M	src/baobab-ringschart.c
@@ -13765,8 +14332,8 @@ Date:	2006-12-11
 
     2006-12-11	Daniel Nylander <po@danielnylander.se>
 
-	* sv/sv.po: Updated Swedish translation.
-	* sv/figures/*png: Updated screenshots.
+	    * sv/sv.po: Updated Swedish translation.
+	    * sv/figures/*png: Updated screenshots.
 
 M	help/ChangeLog
 M	help/sv/figures/baobab_fullscan.png
@@ -13783,7 +14350,7 @@ Date:	2006-11-23
 
     2006-11-23	Francisco Javier F. Serrador  <serrador@openshine.com>
 
-	* es.po: Added Spanish translation.
+	    * es.po: Added Spanish translation.
 
 M	help/ChangeLog
 M	help/Makefile.am
@@ -13901,12 +14468,12 @@ Date:	2006-10-28
 
     2006-10-28	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab-scan.c:
-	* src/baobab-scan.h:
+	    * src/baobab-scan.c:
+	    * src/baobab-scan.h:
 
-	Clean up a bit Hard links handling so that we just store
-	inode and device in the list instead of the full
-	GnomeVfsFileInfo.
+	    Clean up a bit Hard links handling so that we just store
+	    inode and device in the list instead of the full
+	    GnomeVfsFileInfo.
 
 M	ChangeLog
 M	src/baobab-scan.c
@@ -13921,13 +14488,13 @@ Date:	2006-10-28
 
     2006-10-28	Paolo Borelli  <pborelli@katamail.com>
 
-	* data/baobab.glade:
-	* data/baobab:
-	* src/baobab-utils.c:
-	* src/callbacks.c:
+	    * data/baobab.glade:
+	    * data/baobab:
+	    * src/baobab-utils.c:
+	    * src/callbacks.c:
 
-	Add a 'Refresh' action. (bug #365086, reported by
-	Matthias Clasen, first patch by Emmanuele Bassi)
+	    Add a 'Refresh' action. (bug #365086, reported by
+	    Matthias Clasen, first patch by Emmanuele Bassi)
 
 M	ChangeLog
 M	data/baobab.glade
@@ -13987,8 +14554,8 @@ Date:	2006-10-22
 
     2006-10-22	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/gedit-tree-map.c: reduce memory usage, free the name
-	before recursing.
+	    * src/gedit-tree-map.c: reduce memory usage, free the name
+	    before recursing.
 
 M	ChangeLog
 M	src/baobab-tree-map.c
@@ -14001,7 +14568,7 @@ Date:	2006-10-21
 
     2006-10-21	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/gedit-scan.c: do not fetch VfsInfo twice.
+	    * src/gedit-scan.c: do not fetch VfsInfo twice.
 
 M	ChangeLog
 M	src/baobab-scan.c
@@ -14089,8 +14656,9 @@ Date:	2006-10-07
 
     2006-10-07	Elijah Newren  <newren gmail com>
 
-	* baobab/src/baobab.c (first_row): Remove markup from translatable
-	messages.  #360451
+	    * baobab/src/baobab.c (first_row): Remove markup from
+	    translatable
+	    messages.  #360451
 
 M	src/baobab.c
 
@@ -14112,8 +14680,8 @@ Date:	2006-10-03
 
     2006-10-03	Daniel Nylander <po@danielnylander.se>
 
-	* sv/sv.po: Updated Swedish translation.
-	* sv/figures/*png: Updated screenshots.
+	    * sv/sv.po: Updated Swedish translation.
+	    * sv/figures/*png: Updated screenshots.
 
 M	help/ChangeLog
 M	help/sv/figures/baobab_fullscan.png
@@ -14131,36 +14699,44 @@ Date:	2006-10-02
 
        * Added the ringschart widget to the main window of baobab. (GB
        #355988)
-	* data/baobab.glade: Added the GtkPaned and the GtkScrolledWindow
-	to the new main window in order to integrate the ringschart
-	widget.
-	* src/baobab-ringschart.[ch]: New widget representing a ringschart
-	that is used in the main window to represent the size of
-	directories.
-	* src/Makefile.am: Added the new widget to the sources list.
-	* src/baobab-treeview.c:
-	(create_directory_treeview): Selection changed signal connected to
-	a new callback that synchronizes the status of the treeview with
-	the ringschart.
-	* src/baobab.c:
-	(set_busy): Added the control of the ringschart widget when the
-	scanning process starts and finishes, we can't draw the ringschart
-	when the treemodel is being scanned.
-	(initialize_ringschart): Added this function, it creates and
-	initializes the ringschart.
-	(main): Called the initialize_ringschart function.
-	* src/baobab.h: Added the new attribute to the application
-	structure.
-	* src/callbacks.c:
-	(on_tv_selection_changed):
-	(on_rchart_sector_activated): this two callbacks synchronize the
-	treeview and the ringschart of the main window, when the user
-	clicks in a row in the treeview that sector is selected in the
-	ringschart.
-	* src/callbacks.h: Added the include for the ringschart widget, we
-	have also added the interfaces for the two new callbacks.
+	    * data/baobab.glade: Added the GtkPaned and the
+	    GtkScrolledWindow
+	    to the new main window in order to integrate the ringschart
+	    widget.
+	    * src/baobab-ringschart.[ch]: New widget representing
+	    a ringschart
+	    that is used in the main window to represent the size of
+	    directories.
+	    * src/Makefile.am: Added the new widget to the sources list.
+	    * src/baobab-treeview.c:
+	    (create_directory_treeview): Selection changed signal
+	    connected to
+	    a new callback that synchronizes the status of the treeview
+	    with
+	    the ringschart.
+	    * src/baobab.c:
+	    (set_busy): Added the control of the ringschart widget
+	    when the
+	    scanning process starts and finishes, we can't draw the
+	    ringschart
+	    when the treemodel is being scanned.
+	    (initialize_ringschart): Added this function, it creates and
+	    initializes the ringschart.
+	    (main): Called the initialize_ringschart function.
+	    * src/baobab.h: Added the new attribute to the application
+	    structure.
+	    * src/callbacks.c:
+	    (on_tv_selection_changed):
+	    (on_rchart_sector_activated): this two callbacks synchronize
+	    the
+	    treeview and the ringschart of the main window, when the user
+	    clicks in a row in the treeview that sector is selected in the
+	    ringschart.
+	    * src/callbacks.h: Added the include for the ringschart
+	    widget, we
+	    have also added the interfaces for the two new callbacks.
 
-	This patch adds the ringschart view to the main window.
+	    This patch adds the ringschart view to the main window.
 
 M	ChangeLog
 M	data/baobab.glade
@@ -14210,9 +14786,9 @@ Date:	2006-09-09
 
     2006-09-09	Dennis Cranston  <dennis_cranston@yahoo.com>
 
-	* src/baobab-prefs.c: (create_tree_props):
+	    * src/baobab-prefs.c: (create_tree_props):
 
-	HIG fix:  Use title capitalization for column headers
+	    HIG fix:  Use title capitalization for column headers
 
 M	ChangeLog
 M	src/baobab-prefs.c
@@ -14297,13 +14873,13 @@ Date:	2006-09-09
 
     2006-09-09	Dennis Cranston  <dennis_cranston@yahoo.com>
 
-	* configure.in: Add 24x24 and scalable Makefiles.
-	* baobab/pixmaps/Makefile.am: Add 24x24 and scalable
-	subdirectories.  Remove baobab.xpm and its installation.
-	* baobab/pixmaps/24x24/Makefile.am: New file.
-	* baobab/pixmaps/24x24/baobab.png:  New file.
-	* baobab/pixmaps/scalable/Makefile.am: New file.
-	* baobab/pixmaps/scalable/baobab.svg: New file.
+	    * configure.in: Add 24x24 and scalable Makefiles.
+	    * baobab/pixmaps/Makefile.am: Add 24x24 and scalable
+	    subdirectories.  Remove baobab.xpm and its installation.
+	    * baobab/pixmaps/24x24/Makefile.am: New file.
+	    * baobab/pixmaps/24x24/baobab.png:	New file.
+	    * baobab/pixmaps/scalable/Makefile.am: New file.
+	    * baobab/pixmaps/scalable/baobab.svg: New file.
 
 M	pixmaps/Makefile.am
 
@@ -14348,81 +14924,107 @@ Date:	2006-09-09
 
     2006-08-27	Dennis Cranston  <dennis_cranston@yahoo.com>
 
-	BUGZILLA: #349187, #350457, #351185, #351534, #351538, #351540,
-	#351544, #351545, #351546, #352147 and #351532.
+	    BUGZILLA: #349187, #350457, #351185, #351534, #351538,
+	    #351540,
+	    #351544, #351545, #351546, #352147 and #351532.
 
-	* data/baobab.glade: Remove search dialog and tab.  More HIG
-	related fixes for the graphical usage map window. Add a scan home
-	directory item to menu and toolbar.  Add expand all and collapse
-	items all items to edit menu.  In the preference dialog, add a
-	help button and rephrase a some strings.  Add a stop menu item to
-	the view menu.
-	* data/baobab.dekstop.in.in: Change tooltip to match style used
-	in GNOME.
-	* data/baobab.schemas.in:  Don't show the statusbar by default.
-	* src/Makefile.am: Add baobab-spinner.[ch]
-	* src/baobab-spinner.[ch]: New files for spinner widget.
-	* src/baobab-graphwin.c: (graph_save_cb): HIG fixes for the save
-	snapshot dialog, (baobab_graphwin_create):  HIG fixes for window
-	title.
-	* src/baobab-prefs.c: (props_notify): remove, (response_cb): Add
-	filechooser callback to handle the close and help responses,
-	(create_props):  Connect to the response signal.
-	* src/baobab-remote-connect-dialog.c: (remote_connect): HIG fixes,
-	(setup_for_type): Get entries from required or optional table,
-	(baobab_remote_connect_dialog_init): HIG fixes for remote scan
-	dialog, separate entries into required and optional categories.
-	* src/baobab-scan.c: (loopsearch): Remove, (searchDir): Remove.
-	* src/baobab-utils.h: Remove search functions and adjust
-	arguments.
-	* src/callbacks.h:  Remove sort and search callbacks.  Add home
-	folder scan callbacks.	Add allocated space menu item callback.
-	* src/baobab-treeview.c: (on_tv_cur_changed): Remove notebook tab
-	logic, (on_tv_button_press): Remove notebook tab logic,
-	, (create_directory_treeview): Add column headers and setup the
-	appropriate column ids for sorting. Merge the percentage and
-	percentage bar columns into a single column.  Show horizontal
-	and vertical scrollbars as needed. (baobab_treeview_equal_func):
-	Make gtk treeview "typeahead find" work, add column headers and
-	sort.
-	* src/baobab-utils.c: (filechooser_cb): New function to handle
-	filechooser response, (dir_select):  Create the filechooser widget
-	once, don't show hidden folders by default. (set_bar): Fix
-	compiler
-	warning, (check_menu_sens): toggle sensivity of expand, collapse
-	and stop menu items , (stop_scan): Remove notebook logic,
-	(show_bars):  Remove scanning message when scan is stopped,
-	(message): Add primary and secondary text, (messageyesno): HIG
-	fixes, do not use yes and no buttons, instead use cancel and
-	action
-	label button, and support primary and secondary text,
-	(baobab_check_dir): String fixes, (popupmenu_list): HIG fixes to
-	popup menu, and remove a redundant menu item, (set_label_scan):
-	Cleanup a string, (open_file_with_application), (trash_file),
-	(contents_changed): HIG fixes for dialogs.
-	* src/baobab.h: Remove search logic.
-	* src/baobab.c: (set_busy): Start or stop the spinner
-	animation, (start_proc_on_dir): Remove notebook tab logic,
-	(prefill_model) Show treeview column
-	headers, (first_row): Hide treeview column headers,
-	(fill_model): Replace "object" with "item" to match nautilus'
-	terminology, add an initial bar and percentage, move scanning text
-	to size and contents columns, this helps prevent resizing of the
-	folder column, (baobab_init): Remove search logic,
-	(baobab_shutdown): remove search logic, (main): Add a "spring"
-	separator and the spinner widget to toolbar, set initial state
-	of the "Allocated Space" menu item.
-	* src/callbacks.c: (on_menuhomedir_activate): Add callback for
-	home directory scan menu item, (on_about_activate): Fix spelling,
-	(on_menu_expand_activate):  Add callback to expand treeview,
-	(on_menu_collapse_activate): Add callback to collapse treeview,
-	(on_tbscanhome_clicked): Add callback for home directory scan
-	toolbar button, (on_menu_stop_activate): Add callback for stop
-	menu item, (open_file_cb), update message() arguments,
-	(volume_changed): Remove notebook tab logic,
-	(on_ck_allocated_activate): Remove the sort callbacks, and add
-	activate callback for "Allocated Space" menu item,
-	(scan_folder_cb): update message() arguments.
+	    * data/baobab.glade: Remove search dialog and tab.	More HIG
+	    related fixes for the graphical usage map window. Add a
+	    scan home
+	    directory item to menu and toolbar.  Add expand all and
+	    collapse
+	    items all items to edit menu.  In the preference dialog, add a
+	    help button and rephrase a some strings.  Add a stop menu
+	    item to
+	    the view menu.
+	    * data/baobab.dekstop.in.in: Change tooltip to match
+	    style used
+	    in GNOME.
+	    * data/baobab.schemas.in:  Don't show the statusbar by
+	    default.
+	    * src/Makefile.am: Add baobab-spinner.[ch]
+	    * src/baobab-spinner.[ch]: New files for spinner widget.
+	    * src/baobab-graphwin.c: (graph_save_cb): HIG fixes for
+	    the save
+	    snapshot dialog, (baobab_graphwin_create):	HIG fixes
+	    for window
+	    title.
+	    * src/baobab-prefs.c: (props_notify): remove, (response_cb):
+	    Add
+	    filechooser callback to handle the close and help responses,
+	    (create_props):  Connect to the response signal.
+	    * src/baobab-remote-connect-dialog.c: (remote_connect):
+	    HIG fixes,
+	    (setup_for_type): Get entries from required or optional table,
+	    (baobab_remote_connect_dialog_init): HIG fixes for remote scan
+	    dialog, separate entries into required and optional
+	    categories.
+	    * src/baobab-scan.c: (loopsearch): Remove, (searchDir):
+	    Remove.
+	    * src/baobab-utils.h: Remove search functions and adjust
+	    arguments.
+	    * src/callbacks.h:	Remove sort and search callbacks.
+	    Add home
+	    folder scan callbacks.  Add allocated space menu item
+	    callback.
+	    * src/baobab-treeview.c: (on_tv_cur_changed): Remove
+	    notebook tab
+	    logic, (on_tv_button_press): Remove notebook tab logic,
+	    , (create_directory_treeview): Add column headers and
+	    setup the
+	    appropriate column ids for sorting. Merge the percentage and
+	    percentage bar columns into a single column.  Show horizontal
+	    and vertical scrollbars as
+	    needed. (baobab_treeview_equal_func):
+	    Make gtk treeview "typeahead find" work, add column headers
+	    and
+	    sort.
+	    * src/baobab-utils.c: (filechooser_cb): New function to handle
+	    filechooser response, (dir_select):  Create the filechooser
+	    widget
+	    once, don't show hidden folders by default. (set_bar):
+	    Fix compiler
+	    warning, (check_menu_sens): toggle sensivity of expand,
+	    collapse
+	    and stop menu items , (stop_scan): Remove notebook logic,
+	    (show_bars):  Remove scanning message when scan is stopped,
+	    (message): Add primary and secondary text, (messageyesno): HIG
+	    fixes, do not use yes and no buttons, instead use cancel
+	    and action
+	    label button, and support primary and secondary text,
+	    (baobab_check_dir): String fixes, (popupmenu_list): HIG
+	    fixes to
+	    popup menu, and remove a redundant menu item,
+	    (set_label_scan):
+	    Cleanup a string, (open_file_with_application), (trash_file),
+	    (contents_changed): HIG fixes for dialogs.
+	    * src/baobab.h: Remove search logic.
+	    * src/baobab.c: (set_busy): Start or stop the spinner
+	    animation, (start_proc_on_dir): Remove notebook tab logic,
+	    (prefill_model) Show treeview column
+	    headers, (first_row): Hide treeview column headers,
+	    (fill_model): Replace "object" with "item" to match nautilus'
+	    terminology, add an initial bar and percentage, move
+	    scanning text
+	    to size and contents columns, this helps prevent resizing
+	    of the
+	    folder column, (baobab_init): Remove search logic,
+	    (baobab_shutdown): remove search logic, (main): Add a "spring"
+	    separator and the spinner widget to toolbar, set initial state
+	    of the "Allocated Space" menu item.
+	    * src/callbacks.c: (on_menuhomedir_activate): Add callback for
+	    home directory scan menu item, (on_about_activate): Fix
+	    spelling,
+	    (on_menu_expand_activate):	Add callback to expand treeview,
+	    (on_menu_collapse_activate): Add callback to collapse
+	    treeview,
+	    (on_tbscanhome_clicked): Add callback for home directory scan
+	    toolbar button, (on_menu_stop_activate): Add callback for stop
+	    menu item, (open_file_cb), update message() arguments,
+	    (volume_changed): Remove notebook tab logic,
+	    (on_ck_allocated_activate): Remove the sort callbacks, and add
+	    activate callback for "Allocated Space" menu item,
+	    (scan_folder_cb): update message() arguments.
 
 M	ChangeLog
 M	data/baobab.desktop.in.in
@@ -14446,10 +15048,10 @@ Date:	2006-08-27
 
     2006-08-27	Paolo Borelli  <pborelli@katamail.com>
 
-	* src/baobab.c:
-	* src/baobab-utils.[ch]:
+	    * src/baobab.c:
+	    * src/baobab-utils.[ch]:
 
-	do not crash if toolbar style can't be retrieved from GConf.
+	    do not crash if toolbar style can't be retrieved from GConf.
 
 M	ChangeLog
 M	src/baobab-utils.c
@@ -14464,9 +15066,9 @@ Date:	2006-08-20
 
     2006-08-20	Daniel Nylander <po@danielnylander.se>
 
-	* sv/sv.po: Added initial Swedish translation.
-	* sv/figures: Added directory.
-	* Makefile.am: Added sv to DOC_LINGUAS
+	    * sv/sv.po: Added initial Swedish translation.
+	    * sv/figures: Added directory.
+	    * Makefile.am: Added sv to DOC_LINGUAS
 
 M	help/ChangeLog
 M	help/Makefile.am
@@ -14498,8 +15100,8 @@ Date:	2006-08-15
 
     2006-08-16	Wouter Bolsterlee  <uws+gnome@xs4all.nl>
 
-	* data/baobab.glade: Added Escape shortcut for the Stop
-	button. Partly fixes bug #351532. Patch by Dave Meikle.
+	    * data/baobab.glade: Added Escape shortcut for the Stop
+	    button. Partly fixes bug #351532. Patch by Dave Meikle.
 
 M	ChangeLog
 M	data/baobab.glade
@@ -14678,9 +15280,9 @@ Date:	2006-07-24
 
     2006-07-24	Emmanuele Bassi  <ebassi@cvs.gnome.org>
 
-	* data/baobab.desktop.in.in: Add GenericName key to the
-	desktop file. (#348363, reported by Matthias Clasen,
-	patch by Ray Strode)
+	    * data/baobab.desktop.in.in: Add GenericName key to the
+	    desktop file. (#348363, reported by Matthias Clasen,
+	    patch by Ray Strode)
 
 M	ChangeLog
 M	data/baobab.desktop.in.in
@@ -14867,15 +15469,16 @@ Date:	2006-04-24
 
     2006-04-23	Dennis Cranston  <dennis_cranston@yahoo.com>
 
-	* data/baobab.glade:  Many HIG changes, including capitalization,
-	widget layout, menu layout, and more.
-	* src/baobab-remote-connect-dialog.c:
-	(baobab_remote_connect_dialog_init):  Fix window title
-	capitalization.
-	* src/baobab-utils.c: (dir_select):  Fix window title
-	capitalization.
-	* src/baobab-treeview.c: (create_search_model):  Update to
-	updated menu item.
+	    * data/baobab.glade:  Many HIG changes, including
+	    capitalization,
+	    widget layout, menu layout, and more.
+	    * src/baobab-remote-connect-dialog.c:
+	    (baobab_remote_connect_dialog_init):  Fix window title
+	    capitalization.
+	    * src/baobab-utils.c: (dir_select):  Fix window title
+	    capitalization.
+	    * src/baobab-treeview.c: (create_search_model):  Update to
+	    updated menu item.
 
 M	ChangeLog
 M	data/baobab.glade
@@ -14891,12 +15494,12 @@ Date:	2006-04-23
 
     2006-04-23	Emmanuele Bassi  <ebassi@cvs.gnome.org>
 
-	* data/Makefile.am: Revert the libglade hack, and add a BFN
-	about it.
+	    * data/Makefile.am: Revert the libglade hack, and add a BFN
+	    about it.
 
-	* pixmaps/Makefile.am: Use datadir instead of pkgdatadir.
+	    * pixmaps/Makefile.am: Use datadir instead of pkgdatadir.
 
-	* help/.cvsignore: Update.
+	    * help/.cvsignore: Update.
 
 M	ChangeLog
 M	data/Makefile.am

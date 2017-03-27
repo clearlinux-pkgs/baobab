@@ -1,5 +1,5 @@
 PKG_NAME := baobab
-URL := http://ftp.gnome.org/pub/gnome/sources/baobab/3.22/baobab-3.22.1.tar.xz
-ARCHIVES :=
+URL := https://download.gnome.org/sources/baobab/3.24/baobab-3.24.0.tar.xz
+
 
 include ../common/Makefile.common

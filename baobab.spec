@@ -4,7 +4,7 @@
 #
 Name     : baobab
 Version  : 3.24.0
-Release  : 5
+Release  : 6
 URL      : https://download.gnome.org/sources/baobab/3.24/baobab-3.24.0.tar.xz
 Source0  : https://download.gnome.org/sources/baobab/3.24/baobab-3.24.0.tar.xz
 Summary  : No detailed summary available

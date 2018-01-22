@@ -1,6 +1,380 @@
+commit be96728e02b7140b8d9f746fd9321a207f30d819
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:   2017-10-02
+
+    Release 3.26.1
+
+M	NEWS
+M	configure.ac
+
+commit b5e2d5c83e99d28c6fcbcb58ffb5f360379fea31
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2017-09-29
+
+    Rework settings handling
+
+    Use GtkWindow::get_size() instead of configure event to store
+    window size.
+    (See https://wiki.gnome.org/HowDoI/SaveWindowState).
+
+    Don't use globals for GSettings objects.
+
+M	src/baobab-application.vala
+M	src/baobab-window.vala
+
+commit 6573e85be2f513888c0b5b21e79def6cb624ec44
+Author: Arash Mousavi <mousavi.arash@gmail.com>
+Date:	2017-09-22
+
+    Update Persian translations
+
+M	po/fa.po
+
+commit 16ce0687bc6c6b7d2eda564805df9cae51b799ba
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:	2017-09-17
+
+    Update Slovak translation
+
+M	po/sk.po
+
+commit ade41438221e4cc79d9e64a565c96d7551c1fa83
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2017-09-16
+
+    Update Polish help translation
+
+M	help/pl/pl.po
+
+commit 7ca8be9d53ca6a92ba6aeba3ddc74083877abca4
+Author: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>
+Date:	2017-09-14
+
+    Updated Esperanto translation
+
+M	po/eo.po
+
+commit aaad7da9175afae8108fd64d230a470543a513da
+Author: hanniedu <hannie@ubuntu-nl.org>
+Date:	2017-09-11
+
+    Updated Dutch translation Master 3.26
+
+M	po/nl.po
+
+commit 8fe6ff7ae8630745b3621e4a308aff455b35f46c
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2017-09-10
+
+    Release 3.26.0
+
+M	NEWS
+M	configure.ac
+
+commit 105e9f26129f8fa3646990587ef7b87856445454
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2017-09-10
+
+    Raise minimal vala version
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=787419
+
+M	configure.ac
+
+commit a1957d2e8eafab7d70adec76b1ccedb9786bf2d3
+Author: Alexander Shopov <ash@kambanaria.org>
+Date:	2017-09-10
+
+    Updated Bulgarian translation
+
+M	po/bg.po
+
+commit da3ec2474884d2b1f7a1e6ab3b01c0966048aef6
+Author: Jordi Mas <jmas@softcatala.org>
+Date:	2017-09-10
+
+    Fixes to Catalan translation
+
+M	po/ca.po
+
+commit 7162f0a24bc7e63f5419a27544230f6acee7580e
+Author: Jordi Mas <jmas@softcatala.org>
+Date:	2017-09-09
+
+    Update Catalan translation
+
+M	po/ca.po
+
+commit 4075864d91a108de5305909c938a66da22e1dc41
+Author: Lyubomir Vasilev <lyubomirv@abv.bg>
+Date:	2017-09-09
+
+    Updated Bulgarian translation
+
+M	po/bg.po
+
+commit 288b8ba55e144f13560641fdad1432b7361b0965
+Author: Rafael Fontenelle <rafaelff@gnome.org>
+Date:	2017-09-08
+
+    Update Brazilian Portuguese translation
+
+M	help/pt_BR/pt_BR.po
+
+commit 8593b5ba7bb5c3fbc121a4ccec582f7853f05aff
+Author: Sveinn í Felli <sv1@fellsnet.is>
+Date:	2017-09-08
+
+    Update Icelandic translation
+
+    (cherry picked from commit 11689f6128ac2f872a2aad7fe765b96a5f8bd90a)
+
+M	po/is.po
+
+commit 799d2977cd8671620a88a24be2aca0ce809083e5
+Author: Trần Ngọc Quân <vnwildman@gmail.com>
+Date:	2017-09-04
+
+    Updated Vietnamese translation
+
+    Signed-off-by: Trần Ngọc Quân <vnwildman@gmail.com>
+
+M	po/vi.po
+
+commit c0420116c75c34a4607e7c4bf0205d260f41c554
+Author: Stefano Facchini <stefano.facchini@gmail.com>
+Date:	2017-09-03
+
+    Release 3.25.92
+
+M	NEWS
+M	configure.ac
+
+commit 49cc2b85b20f1bb0aa4b89ce19af951889f67493
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:	2017-09-02
+
+    Update Finnish translation
+
+M	help/fi/fi.po
+
+commit 68d94b6dc187a02cb9256ebe43b73ab246482c32
+Author: Seong-ho Cho <shcho@gnome.org>
+Date:	2017-09-02
+
+    Update Korean translation
+
+M	help/ko/ko.po
+
+commit da7cc433a8dbfde0aadd08d627029a511f71f502
+Author: Ask Hjorth Larsen <asklarsen@gmail.com>
+Date:	2017-08-26
+
+    Updated Danish translation
+
+M	po/da.po
+
+commit c73c4e06eea671bcdd037462e20a9c34b436c429
+Author: Gábor Kelemen <kelemeng@openscope.org>
+Date:	2017-08-18
+
+    Update Hungarian translation
+
+M	help/hu/hu.po
+
+commit daa95e48fda93565f2706871f29d204173ea2f9b
+Author: Andika Triwidada <atriwidada@gnome.org>
+Date:	2017-08-18
+
+    Update Indonesian translation
+
+M	help/id/id.po
+
+commit 9dec5095131c9c79eb2b99409223fc543dcffb9f
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2017-08-06
+
+    Update Polish translation
+
+M	help/pl/pl.po
+
+commit c5293c914135b05b281f50a864637d978b1fa3a1
+Author: Marek Cernocky <marek_cernocky@conel.cz>
+Date:	2017-08-06
+
+    Updated Czech translation
+
+M	help/cs/cs.po
+
+commit 429562ba443085a22044f20030c7ffb5e6b4cccf
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2017-08-05
+
+    Fix Malayalam and Nepali translations
+
+M	po/ml.po
+M	po/ne.po
+
+commit 46549ba1187eb726e3c5e4d783505b1521cf52f6
+Author: Balasankar C <c.balasankar@gmail.com>
+Date:	2017-08-05
+
+    Update Malayalam translation
+
+M	po/ml.po
+
+commit a18b3a54521d1d82117b22863e464823f5832280
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:	2017-08-05
+
+    Updated Spanish translation
+
+M	help/es/es.po
+
+commit bcaf17d62f1be9da45f87540059eea3a65a9f8b0
+Author: Anders Jonsson <anders.jonsson@norsjovallen.se>
+Date:	2017-08-03
+
+    Update Swedish translation
+
+M	help/sv/sv.po
+
+commit c1a20334d5fdb4e77bb4bf569a190d5d09e9db36
+Author: Mario Blättermann <mario.blaettermann@gmail.com>
+Date:	2017-08-01
+
+    Update German translation
+
+M	help/de/de.po
+
+commit 3010d60caee228a988d087e7bd50a51a9752382f
+Author: Anders Jonsson <anders.jonsson@norsjovallen.se>
+Date:	2016-06-14
+
+    Fixes for typos etc in help
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=767624
+
+M	help/C/pref-view-chart.page
+M	help/C/problem-permissions.page
+M	help/C/problem-slow-scan.page
+
+commit 5fa22a1b783e5e1220f15a6eeee3788af67974f4
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2017-07-31
+
+    Re-enable Portuguese help translation
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=784427
+
+M	help/Makefile.am
+
+commit 205573291f6ee766646d9c6a7d9c96124345bdff
+Author: Pawan Chitrakar <chautari@gmail.com>
+Date:	2017-07-31
+
+    Update Nepali translation
+
+M	po/ne.po
+
+commit f70bcaf6b82ed94b734b21af172456388b93e5fe
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:	2017-07-28
+
+    Updated Slovenian translation
+
+M	po/sl.po
+
+commit 1873a623d1423697a9a4473a8671407fd28a4c8b
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:	2017-07-21
+
+    Updated Slovenian translation
+
+M	po/sl.po
+
+commit 5611de3b16509786adfe48569d00e8bf198ccf55
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2017-06-05
+
+    Refresh Portuguese help translation
+
+    In a desperate effort to fix its build.
+
+M	help/pt/pt.po
+
+commit 6fa06b10273568830e3696c93eaf6823cddf6d71
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2017-06-02
+
+    Add Polish help translation
+
+M	help/Makefile.am
+A	help/pl/pl.po
+
+commit cbf8523c04d763300f2ab44e580dfd1886ae5f6d
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2017-06-02
+
+    Fix XML tags in Portuguese help translation
+
+M	help/pt/pt.po
+
+commit d5df1e0bbbcea2288cca95ad4128e03012172b45
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:	2017-05-09
+
+    Updated Slovenian translation
+
+M	po/sl.po
+
+commit 817a5e22ff88cf5ce92c1152b410342285c765fa
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	2017-04-27
+
+    Update po/Makevars
+
+    This is not a GNU package and the Free Software Foundation has
+    no copyright
+    over it. Also adds MSGID_BUGS_ADDRESS.
+
+M	po/Makevars
+
+commit 7b8e606a44a2eb9cb208d9d1f9be72155fb36639
+Author: Yuras Shumovich <shumovichy@gmail.com>
+Date:	2017-04-18
+
+    Update Belarusian translation
+
+M	po/be.po
+
+commit 78a652cf1d5ddebb9b7ab8113d9fcd33329dd282
+Author: gogo <trebelnik2@gmail.com>
+Date:	2017-04-08
+
+    Update Croatian translation
+
+M	po/hr.po
+
+commit 8361fa2662bbfc865843c1ba933ab189f5f070c1
+Author: Furkan Ahmet Kara <furkanahmetkara.fk@gmail.com>
+Date:	2017-04-04
+
+    Update Turkish translation
+
+M	po/tr.po
+
+commit 202d168b67964975fea570d3da48e3ab765fdba7
+Author: Daniel Mustieles <daniel.mustieles@gmail.com>
+Date:	2017-03-22
+
+    Update Spanish translation
+
+M	po/es.po
+
 commit 2c3292fbe95e2108940b3191bb7c179c8c19e701
 Author: Stefano Facchini <stefano.facchini@gmail.com>
-Date:   2017-03-20
+Date:	2017-03-20
 
     Release 3.24.0
 

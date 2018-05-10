@@ -4,7 +4,7 @@
 #
 Name     : baobab
 Version  : 3.26.1
-Release  : 7
+Release  : 8
 URL      : https://download.gnome.org/sources/baobab/3.26/baobab-3.26.1.tar.xz
 Source0  : https://download.gnome.org/sources/baobab/3.26/baobab-3.26.1.tar.xz
 Summary  : No detailed summary available

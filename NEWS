@@ -1,8 +1,38 @@
-3.26.1
+3.29.1
 ======
 
-  * Fix saving window size
-  * Updated translations (eo, fa, nl, sk)
+  * Updated translations (af, eo, ro, ru, zh_CN, zh_TW)
+  * Updated documentation translations (gl, it)
+  * Localization fixes
+
+3.28.0
+======
+
+  * Removed now useless po/Makevars
+  * Updated translations (da, el, fr, gd, gl, hr, it, kk, ko, lt, lv, nl, pt_BR, sk, sr@latin, tr, vi, zh_TW)
+  * Updated documentation translations (es, hr)
+
+3.27.90
+=======
+
+  * Updated translations (es, fi, hu, pl, sr, sv)
+  * Updated documentation translations (pl)
+
+3.27.2
+======
+
+  * Add support for mouse back button
+  * Replace window menu with a "Scan" button (and other visual tweaks)
+  * Minor bugfixes
+  * Updated translations (ar, cs, de, fur, hr, id, is, nb, ne, sl)
+  * Updated documentation translations (fr)
+
+3.27.1
+======
+
+  * Build system ported to Meson
+  * Use traditional titlebar on Unity
+  * Updated translations (ca@valencia, eo, fa, nl, sk)
   * Updated documentation translations (pl)
 
 3.26.0

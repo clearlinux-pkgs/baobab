@@ -1,3 +1,19 @@
+3.32.0
+======
+
+  * Minor tweaks for app icon
+  * Updated translations (ca, da, de, el, es, fi, fr, fur, gl, hu, id, it, ja, kk, ko, lt, lv, nl, pl, pt_BR, ro, ru, sr, sv, tr, vi)
+
+3.31.1
+======
+
+  * Use new icon design
+  * Add flatpak manifest
+  * Show a notification when scan is complete
+  * Remove the application menu
+  * Add Keyboard Shortcuts window and improve shortcuts
+  * Updated translations (be, cs, ml, sl)
+
 3.30.0
 ======
 

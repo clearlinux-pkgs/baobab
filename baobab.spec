@@ -4,10 +4,10 @@
 #
 Name     : baobab
 Version  : 3.34.0
-Release  : 14
+Release  : 15
 URL      : https://download.gnome.org/sources/baobab/3.34/baobab-3.34.0.tar.xz
 Source0  : https://download.gnome.org/sources/baobab/3.34/baobab-3.34.0.tar.xz
-Summary  : A graphical directory tree analyzer
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GFDL-1.1 GPL-2.0
 Requires: baobab-bin = %{version}-%{release}
@@ -77,29 +77,29 @@ man components for the baobab package.
 
 %prep
 %setup -q -n baobab-3.34.0
+cd %{_builddir}/baobab-3.34.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1568071126
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1586222039
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
 export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --libdir=lib64 --prefix=/usr --buildtype=plain   builddir
 ninja -v -C builddir
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/baobab
-cp COPYING %{buildroot}/usr/share/package-licenses/baobab/COPYING
-cp COPYING.docs %{buildroot}/usr/share/package-licenses/baobab/COPYING.docs
+cp %{_builddir}/baobab-3.34.0/COPYING %{buildroot}/usr/share/package-licenses/baobab/4cc77b90af91e615a64ae04893fdffa7939db84c
+cp %{_builddir}/baobab-3.34.0/COPYING.docs %{buildroot}/usr/share/package-licenses/baobab/4f485ab7059ac53d9e3818278ad82217ce976a36
 DESTDIR=%{buildroot} ninja -C builddir install
 %find_lang baobab
 
@@ -410,8 +410,8 @@ DESTDIR=%{buildroot} ninja -C builddir install
 
 %files license
 %defattr(0644,root,root,0755)
-/usr/share/package-licenses/baobab/COPYING
-/usr/share/package-licenses/baobab/COPYING.docs
+/usr/share/package-licenses/baobab/4cc77b90af91e615a64ae04893fdffa7939db84c
+/usr/share/package-licenses/baobab/4f485ab7059ac53d9e3818278ad82217ce976a36
 
 %files man
 %defattr(0644,root,root,0755)

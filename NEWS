@@ -1,9 +1,40 @@
-3.34.1
+3.38.0
 ======
 
-  * Backported bugfixes (network locations blocking the UI)
-  * Updated translation (ckb, ja, ms, uk)
-  * Updated documentation translations (cs, es, fr, pl, sv)
+  * Updated translations (cs, da, de, el, en_GB, fa, fi, fr, gl, hr, hu, id,
+    it, ja, ko, lv, nl, pl, pt, pt_BR, sk, sl, sr)
+  * Updated documentation translations (ca, de)
+
+3.37.90
+=======
+
+  * Added UI to change excluded locations
+  * Style fixes
+  * Updated translations (ca, de, es, eu, fur, kk, lt, ro, sv, tr, uk, zh_CN)
+
+3.35.2
+======
+
+  * Added compatibility with MinGW
+  * Improved treeview navigation in order to avoid horizontal scrolling
+  * Updated color palette of the charts
+  * Added a command line option to cross filesystem boundaries
+  * Updated translations (ca, es, kk, ro, tr, uk, zh_CN)
+
+3.35.1
+======
+
+  * Files are now shown in the UI
+  * Many fixes for the location list, including duplication issues and a
+    problem with network locations blocking the UI
+  * Disk Usage Analyzer now shows up in the list of recommended applications for folders
+  * Mount points are now excluded only if on different filesystems
+  * Visual fixes (tooltips, sorting of recent items)
+  * Added the possibility to clear the recent list
+  * Improved Shortcut window
+  * Updated translations (ckb, eo, es, gl, he, id, ja, ms, nb, ro, sl, tr, uk,
+    zh_CN, zh_TW)
+  * Updated documentation translations (ca, cs, es, fr, gl, hu, id, pl, sv, uk)
 
 3.34.0
 ======

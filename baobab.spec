@@ -4,7 +4,7 @@
 #
 Name     : baobab
 Version  : 43.0
-Release  : 22
+Release  : 23
 URL      : https://download.gnome.org/sources/baobab/43/baobab-43.0.tar.xz
 Source0  : https://download.gnome.org/sources/baobab/43/baobab-43.0.tar.xz
 Summary  : No detailed summary available

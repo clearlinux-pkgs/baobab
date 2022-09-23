@@ -1,3 +1,77 @@
+43.0
+=========
+* Translation updates:
+ - Abkhazian
+ - Bulgarian
+ - Catalan
+ - Chinese (China)
+ - Chinese (Taiwan)
+ - Croatian
+ - Czech
+ - Danish
+ - Dutch
+ - French
+ - Galician
+ - Georgian
+ - German
+ - Hungarian
+ - Icelandic
+ - Indonesian
+ - Kazakh
+ - Korean
+ - Latvian
+ - Lithuanian
+ - Nepali
+ - Occitan (post 1500)
+ - Persian
+ - Polish
+ - Portuguese (Brazil)
+ - Russian
+ - Serbian
+ - Slovenian
+ - Swedish
+ - Turkish
+ - Ukrainian
+
+43.rc
+=========
+* Translation updates:
+ - Abkhazian
+ - Catalan
+ - Chinese (China)
+ - Croatian
+ - Czech
+ - Danish
+ - Galician
+ - Georgian
+ - Hungarian
+ - Indonesian
+ - Korean
+ - Latvian
+ - Persian
+ - Polish
+ - Russian
+ - Serbian
+ - Slovenian
+ - Swedish
+ - Turkish
+ - Ukrainian
+
+43.beta
+=========
+* Translation updates:
+ - Abkhazian
+ - Georgian
+
+43.alpha
+=========
+* Translation updates:
+ - Chinese (China)
+ - Dutch
+ - Icelandic
+ - Latvian
+ - Nepali
+
 42.0
 =========
 Disk Usage Analyzer 42.0 comes with a port to libadwaita,

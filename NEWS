@@ -1,3 +1,58 @@
+45.0
+=========
+* Use new libadwaita widgets and design patterns (Christopher Davis)
+
+* Translation updates:
+  - Basque (Asier Sarasua Garmendia)
+  - Belarusian (Vasil Pupkin)
+  - Catalan (Jordi Mas)
+  - Chinese (China) (Luming Zh)
+  - Czech (Daniel Rusek)
+  - Danish (Ask Hjorth Larsen)
+  - Dutch (Nathan Follens)
+  - Finnish (Jiri Grönroos)
+  - French (Irénée THIRION)
+  - Friulian (Fabio Tomat)
+  - Galician (Fran Dieguez)
+  - Georgian (Ekaterine Papava)
+  - German (Philipp Kiemle)
+  - Greek, Modern (1453-) (Efstathios Iosifidis)
+  - Hebrew (Yosef Or Boczko)
+  - Hungarian (Balázs Úr)
+  - Indonesian (Kukuh Syafaat)
+  - Italian (Milo Casagrande)
+  - Kazakh (Baurzhan Muftakhidinov)
+  - Korean (Seong-ho Cho)
+  - Lithuanian (Aurimas Černius)
+  - Occitan (post 1500) (Quentin PAGÈS)
+  - Panjabi (Amn Alam)
+  - Persian (Danial Behzadi)
+  - Polish (Piotr Drąg)
+  - Portuguese (Hugo Carvalho)
+  - Russian (Artur So)
+  - Slovenian (Matej Urbančič)
+  - Spanish (Daniel Mustieles)
+  - Swedish (Anders Jonsson)
+  - Turkish (Sabri Ünal)
+  - Ukrainian (Yuri Chornoivan)
+
+45.alpha
+=========
+* Use new libadwaita widgets and design patterns (Christopher Davis)
+
+* Translation updates:
+  - Bulgarian (Alexander Shopov)
+  - Chinese (China) (Boyuan Yang)
+  - Dutch (Nathan Follens)
+  - English (United Kingdom) (Bruce Cowan)
+  - Faroese (Bogi Napoleon Wennerström)
+  - Icelandic (Sveinn í Felli)
+  - Italian (Gianvito Cavasoli)
+  - Latvian (Rūdolfs Mazurs)
+  - Portuguese (Brazil) (Leônidas Araújo)
+  - Slovak (Dušan Kazik)
+
+
 44.0
 =========
 * Change "Open Folder" to "Open Externally" (Ilario Gelmetti)
